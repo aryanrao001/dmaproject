@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet0">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 </head>
 <body>
 <div class="main">
@@ -68,25 +68,29 @@
 <!--================= Content Start ===-->
 <!--==========  Content 1 =====-->
     <section>
-        <div class="content1">
+        <div class="content1" id="content1">
             <div class="cont1service">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img1.webp"></div>
-                <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10">Simple Solution</h2></div>
+                <div style="overflow: hidden;"><h2 id="content1h1">Simple Solution</h2></div>
+                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10">Simple Solution</h2></div> -->
                 <p>seo help people to gain tom knowledge about</p>
             </div>
             <div class="cont1service red">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img2.webp"></div>
-                <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >24/7</h2></div>
+                <div style="overflow: hidden;"><h2 id="content1h1" >24/7</h2></div>
+                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >24/7</h2></div> -->
                 <p>seo help people to gain tom knowledge about</p>
             </div>
             <div class="cont1service">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img3.webp"></div>
-                <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Full management</h2></div>
+                <div style="overflow: hidden;"><h2 id="content1h1" >Full management</h2></div>
+                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Full management</h2></div> -->
                 <p>seo help people to gain tom knowledge about</p>
             </div>
             <div class="cont1service blue">
-                <div class="cont1imgcontainer"><img src="assets/images/conten1img4.webp"></div>
-                <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Client Oriented</h2></div>
+                <div class="cont1imgcontainer2"><img src="assets/images/conten1img4.webp"></div>
+                <div style="overflow: hidden;"><h2 id="content1h1" >Client Oriented</h2></div>
+                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Client Oriented</h2></div> -->
                 <p>seo help people to gain tom knowledge about</p>
             </div>
         </div>
@@ -113,7 +117,7 @@
     <section class="content2" >
         <div class="content2firdiv"> 
             <button class="servicebtn" >Services </button>
-            <h1><span data-aos="zoom-in" data-aos-offset="59">SEO</span> <span data-aos="slide-up" data-aos-offset="300">Strategies</span><span data-aos="zoom-in" data-aos-offset="59"> for </span> <span data-aos="zoom-in" data-aos-offset="59">Visible </span> <br> Success Achieve Higher </h1>
+            <h1>SEO Strategies for Visible<br> Success Achieve Higher  </h1>
         </div>
         <div class="content2secdiv">
             <div class="serviceboxcontainer" >
@@ -392,6 +396,18 @@
         </div> -->
     </section>
 
+    <style>
+         ul.accordion-list li h3:after {
+   content: "\f107";
+   font-family: "Font Awesome 6 Free";
+   position: absolute;
+   right: 0;
+   top: 0;
+   color: #Fcc110;
+   transition: all 0.3s ease-in-out;
+   font-size: 18px;
+ }
+    </style>
 <!--========== Content 5 =======-->
     <section class="content5 content">
         <button class="servicebtn" >FAQ</button>
@@ -401,7 +417,7 @@
             <div class="accordionsec" >
                 <ul class="accordion-list">
                     <li>
-                      <h3>how Transforming Clicks into Customer</h3>
+                      <h3>how Transforming Clicks into Customer </h3>
                       <div class="answer">
                         <p>Seo help people to gain knowledge aboutw toio invest and save their money in the most Financia</p>
                           
@@ -487,62 +503,74 @@
         </div>
 
     </section>
-
+    
+<!--========== Footer =======-->
+    <footer>
+        <div class="newsletter">
+            <div class="newslettersec">
+                <div class="newsletter1div">
+                    <img src="assets/images/emailicon.webp">
+                    <h1>Subscribe Our<br> News letter </h1>
+                </div>
+                <div class="newsletter2div">
+                    <input type="text" placeholder="Enter your Email"><button class="seobtn" >Subscribe Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="footersecdiv">
+            <div class="fc1div">
+                <div>
+                    <h1>DMA </h1>
+                    <p>Seo help people to gain knowledge about toio invest and save heir money in the most financia </p>
+                    <div class="mediasec" >
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </div>
+                <div>
+                    <h1>Legal</h1>
+                    <a href="#">Terms of Service         </a>
+                    <a href="#">Privacy Policy / GDPR    </a>
+                    <a href="#">Cookie Policy            </a>
+                </div>
+                <div>
+                    <h1>Useful Link </h1>
+                    <a href="#">Latest News          </a>
+                    <a href="#">Careers              </a>
+                    <a href="#">General Inquiries    </a>
+                    <a href="#">Case Studies         </a>
+                </div>
+                <div>
+                    <h1>Contact </h1>
+                    <a href="#">+880 123 45 67 89        </a>
+                    <a href="#">yourmail@gmail.com       </a>
+                    <a href="#">1212, The Veg Street     </a>
+                    <a href="#">Case Studies             </a>
+                </div>
+            </div>
+            <div class="fc2div">
+                <h4>© SeoTop 2024 &nbsp; | &nbsp; All Rights Reserved</h4> 
+                <h4>Privacy &nbsp; | &nbsp; Terms &nbsp; | &nbsp; Sitemap &nbsp; | &nbsp; Help</h4>
+            </div>
+        </div>
+    </footer>
 
 </div>    
 
 <!--==== Script ===-->
 
-<script src="assets/js/script.js"></script>
+
 <!-- jQuery CDN -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<script src="assets/js/script.js"></script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-
-AOS.init({
-  once: true,
-
-});
-
-
-$(document).ready(function(){
-  $('.accordion-list > li > .answer').hide();
-    
-  $('.accordion-list > li').click(function() {
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active").find(".answer").slideUp();
-    } else {
-      $(".accordion-list > li.active .answer").slideUp();
-      $(".accordion-list > li.active").removeClass("active");
-      $(this).addClass("active").find(".answer").slideDown();
-    }
-    return false;
-  });
-  
-});
-
-
-//     const accordions = document.querySelectorAll('.accordion-item');
-
-//     accordions.forEach(accordion => {
-//     const header = accordion.querySelector('.accordion-header');
-    
-//     header.addEventListener('click', () => {
-//         // Collapse all other sections
-//         accordions.forEach(item => item.classList.remove('active'));
-
-//         // Expand the clicked section
-//         accordion.classList.add('active');
-//         console.log(accordions);
-//         console.log(header);
-//     });
-// });
-
-
-</script>
 
 </body>
 </html>

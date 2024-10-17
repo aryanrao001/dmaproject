@@ -26,7 +26,7 @@ gsap properties
         rotate:720,
         scrollTrigger:{
             trigger: "#page2",                 (Trigger preparing on page 2);
-            scroll: "body ",                   (Comparing scroll trigger on the basis of body )
+            scroller: "body ",                   (Comparing scroll trigger on the basis of body )
             markers: true,                     (It's allows us to set the height of trigger on body);
             start: top 60% ,                   (It's the real height of scroll animation trigger means it triggers on the height of 50% )
             end : top 50% ,                    (it's same and exact opposite of the start one ) 

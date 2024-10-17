@@ -71,3 +71,39 @@ $('.carousel-testimonial').owlCarousel({
 //         accordion.classList.add('active');
 //     });
 // });
+
+
+
+$(document).ready(function(){
+    $('.accordion-list > li > .answer').hide();
+      
+    $('.accordion-list > li').click(function() {
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active").find(".answer").slideUp();
+      } else {
+        $(".accordion-list > li.active .answer").slideUp();
+        $(".accordion-list > li.active").removeClass("active");
+        $(this).addClass("active").find(".answer").slideDown();
+      }
+      return false;
+    });
+    
+  });
+
+
+
+/*============= Gsap ===========*/
+gsap.from("#content1 h2", {
+    duration: 1,
+    // delay:1,
+    opacity:0,
+    y:200,
+    // scrollTrigger: "#content1 "
+    scrollTrigger:{
+        trigger: "#content1 h2",
+        scroller :"body",
+        markers:true,
+        start: "top 60%",
+
+    }
+});

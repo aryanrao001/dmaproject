@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html,body{
+    width: 100%;
+    height: 100%;
+}
 
 a{
     color: black;
@@ -22,6 +26,9 @@ a{
     border-radius: 50%;
     transition: 0s all;
     pointer-events: none; /* Prevents the circle from capturing mouse events */
+}
+.main{
+    overflow-x: hidden;
 }
 
 .point {
@@ -150,10 +157,10 @@ header>div{
     color: white;font-size: large;
     border: none;
     border-radius: 4vw;
-    margin: 0 0 2vw 0;
+    margin: 1vw 0 2vw 0;
 }
 .bannerright h1{
-    font-size: 65px;
+    font-size: 50px;
     padding: 1vw 0 ;
     font-weight: 500;
 }
@@ -191,7 +198,7 @@ header>div{
 /*=== Content 1 ========*/
 .cont1service img{
     background-color: #FFB525;
-    padding: 1.5vw;
+    padding: 1.2vw;
     border-radius: 50%;
     margin: 0 0 1vw 0;
 }
@@ -202,11 +209,11 @@ header>div{
 }
 .content1 h2{
     font-weight: 600;
-    font-size: 27px;
-    padding: 0.51vw 0;
+    font-size: 20px;
+    padding: 0vw 0 1vw 0;
 }
 .content1 p{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 100;
 }
 .red img{
@@ -227,7 +234,7 @@ header>div{
     width: 100%;
     height: 0.1vh;
     top: 50%;
-    background-color: rgb(152, 151, 151);
+    background-color: rgb(214, 214, 214);
 }
 /*========== Content 1secdiv ===========*/
 .content1secdiv{
@@ -848,16 +855,16 @@ font-size: 2rem;
    letter-spacing: 0.01em;
    cursor: pointer;
  }
- ul.accordion-list li h3:after {
-   content: "";
-   font-family: "material-design-iconic-font";
+ /* ul.accordion-list li h3:after {
+   content: "\f107";
+   font-family: "Font Awesome 6 Free";
    position: absolute;
    right: 0;
    top: 0;
    color: #Fcc110;
    transition: all 0.3s ease-in-out;
    font-size: 18px;
- }
+ } */
  ul.accordion-list li div.answer {
    position: relative;
    display: block;
@@ -945,8 +952,8 @@ font-size: 2rem;
     /* background-color: black; */
 }
 .cont6blogsec{
-    width: 60vh;
-    height: 65vh;
+    width: 58vh;
+    height: 64vh;
     background-color: #EFEFEF;
     position: relative;
     padding: 1vw 2vw;
@@ -985,4 +992,121 @@ font-size: 2rem;
 .cont6blogsec:hover.cont6blogsec h1{
     color: #206DFF;
     transition: 1s all;
+}
+/*=========== Footer ============**/
+footer{
+    background-color: black;
+    color: white;
+    padding: 12vw 0 0 0;
+    position: relative;
+}
+.fc1div{
+    display: grid;
+    grid-template-columns: 35% 20% 20% 20% ;
+    /* background-color: #206DFF; */
+    height: 50vh;
+    /* background-color: #206DFF; */
+    /* margin: 12vw 0; */
+
+    /* margin: 3vw 0 ; */
+    padding: 3vw 7vw;
+    justify-content: space-around;
+    gap: 10px;
+}
+.fc1div>div{
+    padding: 0 1vw ;
+    border-right: rgb(80, 80, 80) solid 1px ;
+}
+.fc1div h1{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 1vw 0 2vw 0;
+}
+.fc1div p{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 5vh;
+}
+.fc1div a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 0 2vw 0;
+    font-size: 19px;
+    font-weight: 200;
+    /* padding: 1vw 2vw ; */
+}
+.mediasec{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    padding: 1.4vw 0;
+}
+.mediasec i{
+    width: 4vh;
+    height: 4vh;
+    background-color: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2vw;
+    border-radius: 50%;
+}
+
+.fc2div{
+    display: flex ;
+    justify-content: space-between;
+    padding: 2vw 7vw ;
+}
+.fc2div h4{
+    font-size: 20px ;
+    font-weight: 400;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+}
+.newslettersec{
+    background-color: #206DFF;
+    width: 90%;
+    height: 35vh;
+    position: absolute;
+    top: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.newsletter1div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter1div h1{
+    font-size: 5vw;
+    padding: 0 1vw ;
+}
+.newsletter2div{
+    position: relative;
+}
+.newsletter2div input{
+    background-color: rgba(255, 255, 255, 0);
+    /* padding: 2vw 4vw; */
+    width: 60vh;
+    height: 10vh;
+    padding: 1vw 1vw ;
+    border-radius: 4vw;
+    border:solid white 1px;
+}
+.newsletter2div button{
+    position: absolute;
+    /* width: 30vh; */
+    height: 7vh;
+    /* left: 0; */
+    font-size: 12px;
+    right: 2%;
+    top:-5.5%;
+}
+::placeholder{
+    color: white;
 }
