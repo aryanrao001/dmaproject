@@ -1,0 +1,37 @@
+gsap properties 
+1. y :20,           ( for vertical animation )
+2. x :20 ,          ( for horizontal animation )
+3. duration:1 ,     ( for time duration )
+4. repeat : 1,      ( for repeating two times )
+5. repeat : -1,     ( for infinite repeating )
+6. yoyo : true .    ( for animation which also come back to its initial position)
+
+7.Timeline Function  ( With the help of this we don't have to calculate all the durantion and delays )
+
+=>Syntax
+    var tl = gsap.timeline()
+    //Now giving animation 
+    tl.to("#box1",{
+        x:1500,
+        rotate:360,  
+    });
+
+8.Scroll Trigger    ( With the help of this we can perform animation of a particular scrolling height)
+
+=>Syntax 
+    gsap.from("#page2 #box",{
+        scale:0,
+        opacity:0,
+        duration,
+        rotate:720,
+        scrollTrigger:{
+            trigger: "#page2",                 (Trigger preparing on page 2);
+            scroll: "body ",                   (Comparing scroll trigger on the basis of body )
+            markers: true,                     (It's allows us to set the height of trigger on body);
+            start: top 60% ,                   (It's the real height of scroll animation trigger means it triggers on the height of 50% )
+            end : top 50% ,                    (it's same and exact opposite of the start one ) 
+            scrub: (true,false) (0 to 5) ,     (It's main it helps us to run animation through scrolling and also start and end is the point where all the animations runs  )
+            pin : true                         (It's helps us to stop or hold the page until the animation end and one more thing while doing this that if you using pin then pin the parent div not the part which you want to animate )
+
+        }
+    })
