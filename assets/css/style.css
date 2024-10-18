@@ -209,12 +209,24 @@ header>div{
 }
 .content1 h2{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
     padding: 0vw 0 1vw 0;
 }
 .content1 p{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 100;
+}
+#lefth1 span{
+    display: inline-block;
+    white-space: pre;
+}
+#lefth3 span{
+    display: inline-block;
+    white-space: pre;
+}
+span{
+    display: inline-block;
+    white-space: pre;
 }
 .red img{
     background-color: #EC191E;

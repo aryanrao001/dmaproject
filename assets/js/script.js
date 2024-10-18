@@ -93,17 +93,340 @@ $(document).ready(function(){
 
 
 /*============= Gsap ===========*/
+
 gsap.from("#content1 h2", {
-    duration: 1,
-    // delay:1,
-    opacity:0,
-    y:200,
-    // scrollTrigger: "#content1 "
     scrollTrigger:{
-        trigger: "#content1 h2",
+        trigger: "#content1",
         scroller :"body",
         markers:true,
         start: "top 60%",
+        Stagger: 2,
+        ease: "circ.out",
+    },
+    duration: 1,
+    // stagger: ,
+    opacity:0,
+    y: 50,
+    
+});
 
+gsap.from(".animated-image", {
+    scrollTrigger:{
+        trigger: "#cont2trigger",
+        // scroller :"bod",
+        markers:true,
+        start: "top 60%",
+        Stagger: 2,
+        ease: "circ.out",
+        x:10
+    },
+    duration: 1,
+    // stagger: ,
+    opacity:0,
+    y: 50,
+    
+});
+
+
+
+
+
+/*=================== Content 1 , Content 2 ====================*/
+
+gsap.from("#lefth1",{
+    x:100,
+    stagger: 0.1, 
+    duration:1,
+    opacity:0,
+    scrollTrigger:{
+        trigger : "#cont2trigger",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+function breakTheTest2(){
+    
+    let h12 = document.querySelector(".lefth2");
+    let righth12 = h12.textContent;
+    let righth1split2 = righth12.split("");
+    var clutter2 = "";
+    
+    righth1split2.forEach(function(el){
+        // clutter2 +=  "hey"
+        clutter2 +=  `<span>${el}</span>`
+    });
+
+
+    
+    h12.innerHTML = clutter2;
+
+    let h13 = document.querySelector(".lefth3");
+    let righth13 = h13.textContent;
+    let righth1split3 = righth13.split("");
+    var clutter3 = "";
+    
+    righth1split3.forEach(function(el){
+        // clutter3 +=  "hey"
+        clutter3 +=  `<span>${el}</span>`
+    });
+    
+    h13.innerHTML = clutter3;
+
+    let h14 = document.querySelector(".lefth4");
+    let righth14 = h14.textContent;
+    let righth1split4 = righth14.split("");
+    var clutter4 = "";
+    
+    righth1split4.forEach(function(el){
+        // clutter4 +=  "hey"
+        clutter4 +=  `<span>${el}</span>`
+    });
+    
+    h14.innerHTML = clutter4;
+
+    let h15 = document.querySelector(".lefth5");
+    let righth15 = h12.textContent;
+    let righth1split5 = righth15.split("");
+    var clutter5 = "";
+    
+    righth1split5.forEach(function(el){
+        // clutter5 +=  "hey"
+        clutter5 +=  `<span>${el}</span>`
+    });
+    
+    h15.innerHTML = clutter5;
+
+};
+
+    
+
+breakTheTest2();
+
+gsap.from(".lefth2 span",{
+
+    stagger: 0.1,
+    duration:1,
+    opacity:0,
+    rotateX:360,
+    rotateY:360,
+    y:200,
+    scale: 3,    scrollTrigger:{
+        trigger : "#cont3trigger",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+gsap.from(".lefth3 span",{
+
+    stagger: 0.1,
+    duration:1,
+    opacity:0,
+    rotateX:360,
+    rotateY:360,
+    y:- 200,
+    scale: 2,    scrollTrigger:{
+        trigger : "#cont3trigger",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+gsap.from(".lefth4 span",{
+
+    stagger: 0.1,
+    duration:1,
+    opacity:0,
+    rotateX:360,
+    rotateY:360,
+    y:200,
+    scale: 2,    scrollTrigger:{
+        trigger : ".servicebox3",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+gsap.from(".lefth5 span",{
+
+    stagger: 0.1,
+    duration:1,
+    opacity:0,
+    rotateX:360,
+    rotateY:360,
+    y:-200,
+    scale: 2,    scrollTrigger:{
+        trigger : ".servicebox4",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+gsap.from(".servicebox1",{
+
+    stagger: 0.2    ,
+    duration:1.5,
+    opacity:0,
+    // rotateX:360,
+    // rotateY:360,
+    y:200,
+    scale: 1,    scrollTrigger:{
+        trigger : "#cont3trigger",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+
+gsap.from(".servicebox2",{
+
+    stagger: 0.2    ,
+    duration:1.5,
+    opacity:0,
+    // rotateX:360,
+    // rotateY:360,
+    y:-200,
+    scale: 1,    scrollTrigger:{
+        trigger : "#cont3trigger",
+        markers : true,
+        start:"top 40%",
+    }
+
+});
+
+gsap.from(".servicebox3",{
+
+    stagger: 0.2    ,
+    duration:1.5,
+    opacity:0,
+    // rotateX:360,
+    // rotateY:360,
+    x:200,
+    scale: 1,    scrollTrigger:{
+        trigger : ".servicebox3",
+        markers : true,
+        start:"top 60%",
+    }
+
+});
+
+gsap.from(".servicebox4",{
+
+    stagger: 0.2    ,
+    duration:1.5,
+    opacity:0,
+    // rotateX:360,
+    // rotateY:360,
+    x:-200,
+    scale: 1,    scrollTrigger:{
+        trigger : ".servicebox3",
+        markers : true,
+        start:"top 60%",
+    }
+
+});
+
+
+/*============== Content 3 ===============*/
+
+// gsap.from(".cont3effect",{
+//     opacity : 0,
+//     // scale : 3,
+//     duration : 1,
+//     stagger : 1,
+//     rotateX: 200,
+//     x:400,
+//     scrollTrigger :{
+//         trigger : ".cont3",
+//         markers : true,
+//         start :"top 10%",
+//         scrub : 2,
+//         pin : true
+//     },
+// })
+
+// gsap.from(".cont3img",{
+//     opacity : 0,
+//     scale : 3,
+//     duration : 1,
+//     stagger : 1,
+//     x:200,
+//     scrollTrigger :{
+//         trigger : ".cont3",
+//         markers : true,
+//         start :"top 10%",
+//         scrub : 2,
+//         pin : true
+//     },
+// })
+
+// Create a single timeline
+const timeline = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".cont3",
+        markers: true,
+        start: "top 10%",
+        scrub: 1,
+        pin: true,  // Pinning the section for the entire duration of the animations
+    }
+});
+
+// First animation for .cont3effect
+timeline.from(".cont3effect", {
+    opacity: 0,
+    duration: 1,
+    stagger: 1,
+    rotateX: 200,
+    x: 400,
+})
+// Second animation for .cont3img (will start after the first one finishes)
+.to(".cont3img", {
+    opacity: 0,
+    scale: 3,
+    duration: 3,
+    stagger: 1,
+    rotate: 90,
+    // x: 200,
+});
+
+
+/*============= Content 4 =============*/
+gsap.from(".pricesidediv",{
+    y:200,
+    opacity: 0,
+    stagger: 0.1,
+    duration : 1,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".content4",
+        markerst : true,
+        start : "top 50%",
+    }
+});
+
+gsap.from(".cont4h1 span",{
+    x:200,
+    opacity:0,
+    stagger : 0.1,
+    duration : 1
+})
+
+gsap.from(".content4 h1,button",{
+    y:200,
+    opacity: 0,
+    stagger: 0.1,
+    duration : 1,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".content4",
+        markerst : true,
+        start : "top 80%",
     }
 });
