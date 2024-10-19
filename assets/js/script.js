@@ -179,7 +179,7 @@ function breakTheTest2(){
     h14.innerHTML = clutter4;
 
     let h15 = document.querySelector(".lefth5");
-    let righth15 = h12.textContent;
+    let righth15 = h15.textContent;
     let righth1split5 = righth15.split("");
     var clutter5 = "";
     
@@ -462,7 +462,7 @@ gsap.from(".fc1div a",{
     duration : 1,
     scrollTrigger : {
         trigger:".fc1div",
-        start : "top 50%",
+        start : "top 80%",
     }
 });
 
@@ -475,6 +475,6 @@ gsap.from(".fc2div h4",{
     // repeat : -1,
     scrollTrigger : {
         trigger:".fc1div",
-        start : "top 50%",
+        start : "top 80%",
     }
 });
