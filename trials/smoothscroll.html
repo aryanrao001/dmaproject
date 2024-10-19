@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locomotive Scroll Smooth Scrolling</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .smooth-scroll {
+            height: 100%;
+            overflow: hidden;
+        }
+        .content {
+            height: 200vh; /* Make the page long to see scrolling effect */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f0f0f0;
+            font-size: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Smooth Scroll Wrapper -->
+    <div class="smooth-scroll" data-scroll-container>
+        <!-- Content inside wrapper -->
+        <div class="content" data-scroll-section>
+            Smooth Scroll with Locomotive!
+        </div>
+        <div class="content" data-scroll-section>
+            Scroll Down to See the Effect!
+        </div>
+        <div class="content" data-scroll-section>
+            Almost There!
+        </div>
+    </div>
+
+    <!-- JS: Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <script>
+        // Initialize Locomotive Scroll
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('[data-scroll-container]'), // The scrollable container
+            smooth: true, // Enable smooth scrolling
+            smoothMobile: true, // Enable smooth scrolling on mobile
+        });
+    </script>
+</body>
+</html>
+    

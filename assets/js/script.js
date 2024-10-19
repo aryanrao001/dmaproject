@@ -56,22 +56,6 @@ $('.carousel-testimonial').owlCarousel({
     }
 })
 
-//Accoridion 
-
-// const accordions = document.querySelectorAll('.accordion-item');
-
-// accordions.forEach(accordion => {
-//     const header = accordion.querySelector('.accordion-header');
-    
-//     header.addEventListener('click', () => {
-//         // Collapse all other sections
-//         accordions.forEach(item => item.classList.remove('active'));
-
-//         // Expand the clicked section
-//         accordion.classList.add('active');
-//     });
-// });
-
 
 
 $(document).ready(function(){
@@ -94,11 +78,26 @@ $(document).ready(function(){
 
 /*============= Gsap ===========*/
 
+
+gsap.from(".bannersec h1,.bannersec p,.bannersec button", {
+    scrollTrigger:{
+        trigger: ".bannersec",
+        scroller :"body",
+        start: "top 60%",
+        ease: "circ.out",
+    },
+    duration: 1,
+    stagger: 1,
+    // stagger: ,
+    opacity:0,
+    y: 50,
+    
+});
+
 gsap.from("#content1 h2", {
     scrollTrigger:{
         trigger: "#content1",
         scroller :"body",
-        markers:true,
         start: "top 60%",
         Stagger: 2,
         ease: "circ.out",
@@ -113,8 +112,6 @@ gsap.from("#content1 h2", {
 gsap.from(".animated-image", {
     scrollTrigger:{
         trigger: "#cont2trigger",
-        // scroller :"bod",
-        markers:true,
         start: "top 60%",
         Stagger: 2,
         ease: "circ.out",
@@ -127,10 +124,6 @@ gsap.from(".animated-image", {
     
 });
 
-
-
-
-
 /*=================== Content 1 , Content 2 ====================*/
 
 gsap.from("#lefth1",{
@@ -140,8 +133,7 @@ gsap.from("#lefth1",{
     opacity:0,
     scrollTrigger:{
         trigger : "#cont2trigger",
-        markers : true,
-        start:"top 40%",
+         start:"top 40%",
     }
 
 });
@@ -214,7 +206,6 @@ gsap.from(".lefth2 span",{
     y:200,
     scale: 3,    scrollTrigger:{
         trigger : "#cont3trigger",
-        markers : true,
         start:"top 40%",
     }
 
@@ -230,8 +221,7 @@ gsap.from(".lefth3 span",{
     y:- 200,
     scale: 2,    scrollTrigger:{
         trigger : "#cont3trigger",
-        markers : true,
-        start:"top 40%",
+         start:"top 40%",
     }
 
 });
@@ -246,8 +236,7 @@ gsap.from(".lefth4 span",{
     y:200,
     scale: 2,    scrollTrigger:{
         trigger : ".servicebox3",
-        markers : true,
-        start:"top 40%",
+         start:"top 40%",
     }
 
 });
@@ -262,8 +251,7 @@ gsap.from(".lefth5 span",{
     y:-200,
     scale: 2,    scrollTrigger:{
         trigger : ".servicebox4",
-        markers : true,
-        start:"top 40%",
+         start:"top 40%",
     }
 
 });
@@ -278,8 +266,7 @@ gsap.from(".servicebox1",{
     y:200,
     scale: 1,    scrollTrigger:{
         trigger : "#cont3trigger",
-        markers : true,
-        start:"top 40%",
+         start:"top 40%",
     }
 
 });
@@ -295,8 +282,7 @@ gsap.from(".servicebox2",{
     y:-200,
     scale: 1,    scrollTrigger:{
         trigger : "#cont3trigger",
-        markers : true,
-        start:"top 40%",
+         start:"top 40%",
     }
 
 });
@@ -311,8 +297,7 @@ gsap.from(".servicebox3",{
     x:200,
     scale: 1,    scrollTrigger:{
         trigger : ".servicebox3",
-        markers : true,
-        start:"top 60%",
+         start:"top 60%",
     }
 
 });
@@ -327,54 +312,31 @@ gsap.from(".servicebox4",{
     x:-200,
     scale: 1,    scrollTrigger:{
         trigger : ".servicebox3",
-        markers : true,
-        start:"top 60%",
+         start:"top 60%",
     }
 
 });
 
+gsap.from(".content2firdiv h1,content2firdiv button",{
+    x:200,
+    opacity: 0,
+    stagger: 0.2,
+    duration : 1,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".content2",
+        start : "top 60%",
+    }
+});
+
 
 /*============== Content 3 ===============*/
-
-// gsap.from(".cont3effect",{
-//     opacity : 0,
-//     // scale : 3,
-//     duration : 1,
-//     stagger : 1,
-//     rotateX: 200,
-//     x:400,
-//     scrollTrigger :{
-//         trigger : ".cont3",
-//         markers : true,
-//         start :"top 10%",
-//         scrub : 2,
-//         pin : true
-//     },
-// })
-
-// gsap.from(".cont3img",{
-//     opacity : 0,
-//     scale : 3,
-//     duration : 1,
-//     stagger : 1,
-//     x:200,
-//     scrollTrigger :{
-//         trigger : ".cont3",
-//         markers : true,
-//         start :"top 10%",
-//         scrub : 2,
-//         pin : true
-//     },
-// })
-
-// Create a single timeline
 const timeline = gsap.timeline({
     scrollTrigger: {
         trigger: ".cont3",
-        markers: true,
-        start: "top 10%",
+        start: "top 13%",
         scrub: 1,
-        pin: true,  // Pinning the section for the entire duration of the animations
+        pin: true,  
     }
 });
 
@@ -406,7 +368,6 @@ gsap.from(".pricesidediv",{
     // repeat : -1,
     scrollTrigger : {
         trigger:".content4",
-        markerst : true,
         start : "top 50%",
     }
 });
@@ -418,7 +379,7 @@ gsap.from(".cont4h1 span",{
     duration : 1
 })
 
-gsap.from(".content4 h1,button",{
+gsap.from(".content4 h1,.content4 button",{
     y:200,
     opacity: 0,
     stagger: 0.1,
@@ -426,7 +387,94 @@ gsap.from(".content4 h1,button",{
     // repeat : -1,
     scrollTrigger : {
         trigger:".content4",
-        markerst : true,
         start : "top 80%",
+    }
+});
+
+/*========== Content 5 ===============*/
+
+gsap.from(".content5 h1,.content5 button",{
+    x:200,
+    opacity: 0,
+    stagger: 0.1,
+    duration : 1,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".content5",
+        start : "top 60%",
+    }
+});
+
+gsap.from(".accordion-list li",{
+    x:-200,
+    opacity: 0,
+    stagger: 0.2,
+    duration : 1,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".content5",
+        start : "top 60%",
+    }
+});
+
+/*=============== Content 6 =============*/
+
+gsap.from(".cont6top h1,.cont6top button",{
+    y:200,
+    opacity: 0,
+    stagger: 0.2,
+    duration : 1,
+    scrollTrigger : {
+        trigger:".content6",
+        start : "top 60%",
+    }
+});
+
+gsap.from(".cont6blogsec img",{
+    width: 0,
+    x:200,
+    opacity: 0,
+    stagger: 0.2,
+    duration : 1,
+    scrollTrigger : {
+        trigger:".cont6blogcontainer",
+        start : "top 60%",
+    }
+});
+
+gsap.from(".cont6blogsec button",{
+    y:-200,
+    opacity: 0,
+    stagger: 0.2,
+    duration : 1,
+    scrollTrigger : {
+        trigger:".cont6blogsec",
+        start : "top 50%",
+    }
+});
+
+/*============ News Letter ==============*/
+
+gsap.from(".fc1div a",{
+    x:-200,
+    opacity: 0,
+    stagger: 0.2,
+    duration : 1,
+    scrollTrigger : {
+        trigger:".fc1div",
+        start : "top 50%",
+    }
+});
+
+gsap.from(".fc2div h4",{
+    y:-200,
+    opacity: 0,
+    delay:1,
+    // stagger: 0.2,
+    duration : 2,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".fc1div",
+        start : "top 50%",
     }
 });

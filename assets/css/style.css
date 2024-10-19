@@ -27,6 +27,7 @@ a{
     transition: 0s all;
     pointer-events: none; /* Prevents the circle from capturing mouse events */
 }
+/*  */
 .main{
     overflow-x: hidden;
 }
@@ -43,18 +44,30 @@ a{
     transform: translate(-40%, -40%); /* Center the point */
 }
 
+body, html {
+    height: 100%;
+    margin: 0;
+    /* Hide default scrollbar */
+}
+
 /*========== Header ===========*/
 
 
 header{
-    background-color: #EBF3F6;
+    /* background-color: #EBF3F6; */
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 2vw 0 ;
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 0;
+    z-index: 999;
 }
 header>div{
     background-color: white;
+    box-shadow: 0.01vw 0.0vw 0.9vw 0.1vw  rgb(205, 205, 205);
     width: 85%;
     /* width: 100%; */
     height: 10vh;
@@ -62,7 +75,8 @@ header>div{
     align-items: center; 
     justify-content: space-around;  
     border-radius: 4vw;
-    position:relative;
+    position:fixed;
+    top: 5%;
     /* padding: 0 2vw; */
 }
 .menuopt{
@@ -115,6 +129,7 @@ header>div{
     box-shadow: 0.1vw 0.1vw 0.8vw 0.01vw rgb(219, 219, 219);
     display: none;
     z-index:9;
+    animation: updown 2s ;
 }.dropdown-content a{
     background-color: white;
     padding:1vw 1.5vw;
@@ -126,11 +141,20 @@ header>div{
     display: flex;
 }
 
+@keyframes updown {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateX(50);
+    }
+}
+
 /*========== Banner Sec ===========*/
 
 .bannersec{
     display: flex;
-    height: 90vh;
+    height: 100vh;
     align-items: center;
     justify-content: space-around;
     background-color: #EBF3F6;
@@ -149,7 +173,14 @@ header>div{
 .bannerleft{
     perspective: 1000px;
     position: relative;
-
+}
+.bannerleft{
+    background-image: url(../images/banner2bg.png);
+    width: 120vh;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom;
 }
 .seobtn{
     background-color: #FFB525;
@@ -158,6 +189,9 @@ header>div{
     border: none;
     border-radius: 4vw;
     margin: 1vw 0 2vw 0;
+}
+.bannerright{
+    padding: 5vw 0 0 0;
 }
 .bannerright h1{
     font-size: 50px;
@@ -351,9 +385,15 @@ span{
     position: relative;
     border-radius: 2vw ;
     /* padding: 1vw 2vw ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .servicebox>div{
     padding: 1vw 2vw ;
+    /* background-color: black; */
+  
 }
 /* .servicebox::before{
     content: url(image/one.webp);
@@ -499,12 +539,12 @@ font-size: 2rem;
 }
 .cont3box{
     width: 60vh;
-    height: 30vh;
+    height: 25vh;
     box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw  rgb(213, 213, 213);
     padding: 1vw;
 }
 .seobox{
-    padding: 3vw 0 1.5vw 0;
+    padding: 1.5vw 0 1.5vw 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1121,4 +1161,38 @@ footer{
 }
 ::placeholder{
     color: white;
+}
+
+
+/*=============== About Us Page =============*/
+.innerbannersec{
+    width: 100%;
+    height: 90vh;
+    background-color: #F5F9FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;text-align: center;
+    flex-direction: column;
+}
+.innerbannersec h1{
+    font-size: 55px;
+}
+.innerbannersec h5{
+    padding: 2vw 0 0 0;
+    font-size: 25px;
+}
+.circlecontainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blurrycircle{
+    width: 45vh;
+    height: 45vh;
+    border-radius: 50%;
+    background-color: #FFB525;
+    position: absolute;
+    /* z-index: ; */
+    filter: blur(300px);
 }
