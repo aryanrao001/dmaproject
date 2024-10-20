@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<?php include('include/css.php'); ?>
+
 </head>
 <body>
 
@@ -20,34 +15,17 @@
         </div>
     </div>
 <!--================= Header ===========-->
-    <section>
-        <header>
-            <div>
-                <div class="logosec">
-                    <img src="">Digital My Range 
-                </div>
-                <div class="menu">
-                    <ul class="menuopt">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us </a></li>
-                        <li class="dropdown"><a href="#">Services</a>
-                            <div class="dropdown-content" >
-                                <a href="#">Services </a>
-                                <a href="#">Services Details</a>
-                            </div>
-                        </li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Pages</a></li>
-                    </ul>
-                </div>
-                <div class="contactbtn">
-                    <button><a href="">Contact Us</a> </button>
-                </div>
-            </div>
-        </header>
-    </section>
+
+<?php include('include/header.php'); ?>
+
 <!--================= Banner Sec =======-->
-    <section style="display: none;">
+
+
+<!---====================== Display none part ==================-->
+<!------ and they are so many below ---------->
+
+
+    <section style="display: none;" >
         <div class="bannersec">
             <div class="bannerright">
                 <button class="seobtn">Best Seo </button>
@@ -62,8 +40,7 @@
             </div>
         </div>
     </section>
-
-<!--=============== || =====================-->
+<!--========================== =============-->
 
 
     <section>
@@ -72,15 +49,15 @@
                 <div class="blurrycircle"></div>
             </div>
             <div>
-                <h1>About Us </h1>
-                <h5>Home > About Us </h5>
+                <h1>Pricing </h1>
+                <h5>Home > Pricing </h5>
             </div>
         </div>
     </section>
 
 <!--================= Content Start ===-->
 <!--==========  Content 1 =====-->
-    <section>
+    <section style="display:none;">
         <div class="content1" id="content1">
             <div class="cont1service">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img1.webp"></div>
@@ -127,42 +104,43 @@
     </section>
 
 <!--=========== Content 2 =====-->
-    <section class="content2" style="display: none;" >
+    <section class="content2" >
         <div class="content2firdiv"> 
             <button class="servicebtn" >Services </button>
-            <h1 >SEO Strategies for Visible<br> Success Achieve Higher  </h1>
+            <h1>Your All-in-One Partner <br>for Digital Transformation.</h1>
+            <!-- <h1 >SEO Strategies for Visible<br> Success Achieve Higher  </h1> -->
         </div>
         <div id="cont3trigger" class="content2secdiv">
             <div class="serviceboxcontainer" >
                 <div class="servicebox servicebox1" id="servicebox" > 
-                    <div >
+                    <div>
                         <img src="assets/images/cont2img1.webp">
-                        <h1 class="lefth2">SEO Success Partners </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth2">Responsive Website Design</h1>
+                        <p>In today’s digital age, your website is often the first meaningful interaction potential customers have with your brand.</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
                 <div class="servicebox servicebox2" > 
                     <div  >
                         <img src="assets/images/cont2img2.webp">
-                        <h1 class="lefth3">Peak Rank SEO Solutions  </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth3">Impactful Social Media Ads </h1>
+                        <p>In a digital landscape dominated by social media, our Impactful Social Media Ads service is crafted to enhance your brand presence and boost engagement.</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
                 <div class="servicebox servicebox3" > 
                     <div>
                         <img src="assets/images/cont2img3.webp">
-                        <h1 class="lefth4">ProRank SEO Service </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth4">Expert SEO Services </h1>
+                        <p>Our Results-Driven SEO Services are meticulously crafted to not only maximize your online visibility but also to effectively drive targeted traffic to your website,</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
                 <div class="servicebox servicebox4" > 
                     <div>
                         <img src="assets/images/cont2img4.webp">
-                        <h1 class="lefth5">OptimalSearch Strategies  </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth5">Unique Graphic Creations  </h1>
+                        <p>"In a visually-driven world, compelling graphic design is absolutely essential for effectively capturing your audience’s attention.</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
@@ -216,7 +194,7 @@
     </section>
 
 <!--========== Content 4 =======-->
-    <section class="content4" style="display: none;">
+    <section class="content4" >
         <div class="content4firdiv"> 
             <button class="servicebtn"  >Recent Blog  </button>
             <h1>
@@ -266,7 +244,7 @@
     </section>
 
 <!--========== Content 5 =======-->
-    <section class="content5 content" style="margin: 0 0 8vw 0;">
+    <section class="content5 content">
         <button class="servicebtn" >FAQ</button>
         <h1>Achieve Higher Rankings<br> with Us That Work  </h1>
         <div class="cont5cirlce"></div>
@@ -331,7 +309,7 @@
     </section>
 
 <!--========== Content 6 =======-->
-    <section class="content6 content" style="display: none;">
+    <section class="content6 content">
         <button class="servicebtn">Recent Blogs </button>
         <div class="cont6top">
             <h1>Unlocking the Power <br> of Search </h1>
@@ -364,57 +342,7 @@
     </section>
     
 <!--========== Footer =======-->
-    <footer>
-        <div class="newsletter">
-            <div class="newslettersec">
-                <div class="newsletter1div">
-                    <img src="assets/images/emailicon.webp">
-                    <h1>Subscribe Our<br> News letter </h1>
-                </div>
-                <div class="newsletter2div">
-                    <input type="text" placeholder="Enter your Email"><button class="seobtn" >Subscribe Now</button>
-                </div>
-            </div>
-        </div>
-        <div class="footersecdiv">
-            <div class="fc1div">
-                <div>
-                    <h1>DMA </h1>
-                    <p>Seo help people to gain knowledge about toio invest and save heir money in the most financia </p>
-                    <div class="mediasec" >
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </div>
-                </div>
-                <div>
-                    <h1>Legal</h1>
-                    <a href="#">Terms of Service         </a>
-                    <a href="#">Privacy Policy / GDPR    </a>
-                    <a href="#">Cookie Policy            </a>
-                </div>
-                <div>
-                    <h1>Useful Link </h1>
-                    <a href="#">Latest News          </a>
-                    <a href="#">Careers              </a>
-                    <a href="#">General Inquiries    </a>
-                    <a href="#">Case Studies         </a>
-                </div>
-                <div>
-                    <h1>Contact </h1>
-                    <a href="#">+880 123 45 67 89        </a>
-                    <a href="#">yourmail@gmail.com       </a>
-                    <a href="#">1212, The Veg Street     </a>
-                    <a href="#">Case Studies             </a>
-                </div>
-            </div>
-            <div class="fc2div">
-                <h4>© SeoTop 2024 &nbsp; | &nbsp; All Rights Reserved</h4> 
-                <h4>Privacy &nbsp; | &nbsp; Terms &nbsp; | &nbsp; Sitemap &nbsp; | &nbsp; Help</h4>
-            </div>
-        </div>
-    </footer>
+    <?php include('include/footer.php'); ?>
 
 </div>    
 
@@ -422,14 +350,9 @@
 
 
 <!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/gsap/dist/ScrollSmoother.min.js"></script>
-<script src="assets/js/script.js"></script>
 
-<script>ScrollTrigger.refresh();</script>
+<?php include('include/script.php'); ?>
+
 
 </body>
 </html>

@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<?php include('include/css.php');  ?>
+
 </head>
 <body>
 
@@ -20,34 +15,11 @@
         </div>
     </div>
 <!--================= Header ===========-->
-    <section>
-        <header>
-            <div>
-                <div class="logosec">
-                    <img src="">Digital My Range 
-                </div>
-                <div class="menu">
-                    <ul class="menuopt">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us </a></li>
-                        <li class="dropdown"><a href="#">Services</a>
-                            <div class="dropdown-content" >
-                                <a href="#">Services </a>
-                                <a href="#">Services Details</a>
-                            </div>
-                        </li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                    </ul>
-                </div>
-                <div class="contactbtn">
-                    <button><a href="">Contact Us</a> </button>
-                </div>
-            </div>
-        </header>
-    </section>
+
+<?php include('include/header.php'); ?>
+
 <!--================= Banner Sec =======-->
-    <section style="display: none;" >
+    <section>
         <div class="bannersec">
             <div class="bannerright">
                 <button class="seobtn">Best Seo </button>
@@ -56,53 +28,40 @@
                 <button  class="startbtn"><a href="">Get Started &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a></button>
             </div>
             <div class="bannerleft ">
-                <div  class="image-box" id="imageBox">
-                  <img width="" src="assets/images/bannersidephoto.webp">
+                <div  class="image-box"  id="imageBox" style="padding: 3vw 0 0 0;">
+                  <!-- <img width="90vw" height="80vh" src="assets/images/banner2bg.png"> -->
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section>
-        <div class="innerbannersec">
-            <div class="circlecontainer">
-                <div class="blurrycircle"></div>
-            </div>
-            <div>
-                <h1>Pricing </h1>
-                <h5>Home > Pricing </h5>
             </div>
         </div>
     </section>
 
 <!--================= Content Start ===-->
 <!--==========  Content 1 =====-->
-    <section style="display: none;" >
+    <section>
         <div class="content1" id="content1">
             <div class="cont1service">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img1.webp"></div>
                 <div style="overflow: hidden;"><h2 id="content1h1">Simple Solution</h2></div>
                 <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10">Simple Solution</h2></div> -->
-                <p>seo help people to gain tom knowledge about</p>
+                <p>We handle everything, from branding to digital promotion.</p>
             </div>
             <div class="cont1service red">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img2.webp"></div>
                 <div style="overflow: hidden;"><h2 id="content1h1" >24/7</h2></div>
                 <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >24/7</h2></div> -->
-                <p>seo help people to gain tom knowledge about</p>
+                <p>Digital My Range – IT solutions, available 24/7.</p>
             </div>
             <div class="cont1service">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img3.webp"></div>
                 <div style="overflow: hidden;"><h2 id="content1h1" >Full management</h2></div>
                 <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Full management</h2></div> -->
-                <p>seo help people to gain tom knowledge about</p>
+                <p>Complete management solutions for your digital success.</p>
             </div>
             <div class="cont1service blue">
                 <div class="cont1imgcontainer2"><img src="assets/images/conten1img4.webp"></div>
                 <div style="overflow: hidden;"><h2 id="content1h1" >Client Oriented</h2></div>
                 <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Client Oriented</h2></div> -->
-                <p>seo help people to gain tom knowledge about</p>
+                <p>Your vision, our priority—client-oriented IT services.</p>
             </div>
         </div>
         <div id="cont2trigger" class="content1secdiv">
@@ -113,54 +72,55 @@
             </div>
             <div  class="content1secdivcontsec" >
                 <button class="obtn" ><a href="#">About Us </a></button>
-                <h1 class="lefth1" id="lefth1" >SEO Solutions for Deliver Results Online</h1>
-                <p>seo help people to gain knowledge aboutw tolo invest and save their money in the most Financial planners </p>
+                <h1 class="lefth1" id="lefth1" >Drive Conversions through SEO.</h1>
+                <p>Harness the power of our tailored SEO solutions to enhance your online visibility and drive meaningful traffic that converts into loyal customers.</p>
                 <ul>
-                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Your Success is Our Search Priority </li>
-                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Optimizing Today for a Better tomorrow </li>
-                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Climb the Ranks with confidence  </li>
+                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Boost visibility with higher search rankings.</li>
+                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Drive traffic through targeted keywords. </li>
+                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Increase conversions with better user experience.</li>
                 </ul>
             </div>
         </div>
     </section>
 
 <!--=========== Content 2 =====-->
-    <section class="content2" style="display: none;" >
+    <section class="content2" >
         <div class="content2firdiv"> 
             <button class="servicebtn" >Services </button>
-            <h1 >SEO Strategies for Visible<br> Success Achieve Higher  </h1>
+            <h1>Your All-in-One Partner <br>for Digital Transformation.</h1>
+            <!-- <h1 >SEO Strategies for Visible<br> Success Achieve Higher  </h1> -->
         </div>
         <div id="cont3trigger" class="content2secdiv">
             <div class="serviceboxcontainer" >
                 <div class="servicebox servicebox1" id="servicebox" > 
-                    <div >
+                    <div>
                         <img src="assets/images/cont2img1.webp">
-                        <h1 class="lefth2">SEO Success Partners </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth2">Responsive Website Design</h1>
+                        <p>In today’s digital age, your website is often the first meaningful interaction potential customers have with your brand.</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
                 <div class="servicebox servicebox2" > 
                     <div  >
                         <img src="assets/images/cont2img2.webp">
-                        <h1 class="lefth3">Peak Rank SEO Solutions  </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth3">Impactful Social Media Ads </h1>
+                        <p>In a digital landscape dominated by social media, our Impactful Social Media Ads service is crafted to enhance your brand presence and boost engagement.</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
                 <div class="servicebox servicebox3" > 
                     <div>
                         <img src="assets/images/cont2img3.webp">
-                        <h1 class="lefth4">ProRank SEO Service </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth4">Expert SEO Services </h1>
+                        <p>Our Results-Driven SEO Services are meticulously crafted to not only maximize your online visibility but also to effectively drive targeted traffic to your website,</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
                 <div class="servicebox servicebox4" > 
                     <div>
                         <img src="assets/images/cont2img4.webp">
-                        <h1 class="lefth5">OptimalSearch Strategies  </h1>
-                        <p>seo help people to gain knowledge about toio invest and save their money in the most Financial planners help people to gain knowledge </p>
+                        <h1 class="lefth5">Unique Graphic Creations  </h1>
+                        <p>"In a visually-driven world, compelling graphic design is absolutely essential for effectively capturing your audience’s attention.</p>
                         <button class="startbtn"><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i> </a></button>
                     </div>
                 </div>
@@ -169,14 +129,14 @@
     </section>
 
 <!--=========== Content 3 ======-->
-    <section style="display: none;" >
+    <section>
         <div class="cont3">
             <div class="cont3left">
                 <div class="cont3box cont3effect">
                     <img src="assets/images/cont3img2.webp">
                     <div class="seobox">
-                        <h1>SEO Consulting</h1>
-                        <h5>78%</h5>
+                        <h1>Website Making</h1>
+                        <h5>90%</h5>
                     </div>
                     <div class="rangeline"></div>
                 </div>
@@ -196,16 +156,16 @@
                 <div class="cont3box cont3effect">
                     <img src="assets/images/cont3img4.webp">
                     <div class="seobox">
-                        <h1>SEO Agency</h1>
-                        <h5>80%</h5>
+                        <h1>Graphic Designing</h1>
+                        <h5>90%</h5>
                     </div>
                     <div class="rangeline rangeline3"></div>
                 </div>
                 <div class="cont3box cont3effect">
                     <img src="assets/images/cont3img5.webp">
                     <div class="seobox">
-                        <h1>Visibility Experts</h1>
-                        <h5>85%</h5>
+                        <h1>Logo Making</h1>
+                        <h5>90%</h5>
                     </div>
                     <div class="rangeline rangeline4"></div>
                 </div>
@@ -264,7 +224,7 @@
     </section>
 
 <!--========== Content 5 =======-->
-    <section class="content5 content" style="margin: 0 0 8vw 0;">
+    <section class="content5 content">
         <button class="servicebtn" >FAQ</button>
         <h1>Achieve Higher Rankings<br> with Us That Work  </h1>
         <div class="cont5cirlce"></div>
@@ -329,7 +289,7 @@
     </section>
 
 <!--========== Content 6 =======-->
-    <section class="content6 content" style="display: none;"  >
+    <section class="content6 content">
         <button class="servicebtn">Recent Blogs </button>
         <div class="cont6top">
             <h1>Unlocking the Power <br> of Search </h1>
@@ -362,57 +322,8 @@
     </section>
     
 <!--========== Footer =======-->
-    <footer>
-        <div class="newsletter">
-            <div class="newslettersec">
-                <div class="newsletter1div">
-                    <img src="assets/images/emailicon.webp">
-                    <h1>Subscribe Our<br> News letter </h1>
-                </div>
-                <div class="newsletter2div">
-                    <input type="text" placeholder="Enter your Email"><button class="seobtn" >Subscribe Now</button>
-                </div>
-            </div>
-        </div>
-        <div class="footersecdiv">
-            <div class="fc1div">
-                <div>
-                    <h1>DMA </h1>
-                    <p>Seo help people to gain knowledge about toio invest and save heir money in the most financia </p>
-                    <div class="mediasec" >
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </div>
-                </div>
-                <div>
-                    <h1>Legal</h1>
-                    <a href="#">Terms of Service         </a>
-                    <a href="#">Privacy Policy / GDPR    </a>
-                    <a href="#">Cookie Policy            </a>
-                </div>
-                <div>
-                    <h1>Useful Link </h1>
-                    <a href="#">Latest News          </a>
-                    <a href="#">Careers              </a>
-                    <a href="#">General Inquiries    </a>
-                    <a href="#">Case Studies         </a>
-                </div>
-                <div>
-                    <h1>Contact </h1>
-                    <a href="#">+880 123 45 67 89        </a>
-                    <a href="#">yourmail@gmail.com       </a>
-                    <a href="#">1212, The Veg Street     </a>
-                    <a href="#">Case Studies             </a>
-                </div>
-            </div>
-            <div class="fc2div">
-                <h4>© SeoTop 2024 &nbsp; | &nbsp; All Rights Reserved</h4> 
-                <h4>Privacy &nbsp; | &nbsp; Terms &nbsp; | &nbsp; Sitemap &nbsp; | &nbsp; Help</h4>
-            </div>
-        </div>
-    </footer>
+
+<?php include('include/footer.php'); ?>
 
 </div>    
 
@@ -420,13 +331,8 @@
 
 
 <!-- jQuery CDN -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://unpkg.com/gsap/dist/ScrollSmoother.min.js"></script>
-<script src="assets/js/script.js"></script>
 
+<?php include('include/script.php'); ?>
 
 </body>
 </html>

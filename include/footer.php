@@ -14,7 +14,7 @@
             <div class="fc1div">
                 <div>
                     <h1>DMA </h1>
-                    <p>Seo help people to gain knowledge about toio invest and save heir money in the most financia </p>
+                    <p>SEO offers insights for smart money management, while financial planners provide expert guidance for better financial decisions. </p>
                     <div class="mediasec" >
                         <i class="fa-brands fa-facebook-f"></i>
                         <i class="fa-brands fa-linkedin-in"></i>

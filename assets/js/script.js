@@ -426,7 +426,7 @@ gsap.from(".cont6top h1,.cont6top button",{
     duration : 1,
     scrollTrigger : {
         trigger:".content6",
-        start : "top 60%",
+        start : "top 80%",
     }
 });
 
@@ -438,7 +438,7 @@ gsap.from(".cont6blogsec img",{
     duration : 1,
     scrollTrigger : {
         trigger:".cont6blogcontainer",
-        start : "top 60%",
+        start : "top 80%",
     }
 });
 
@@ -449,7 +449,7 @@ gsap.from(".cont6blogsec button",{
     duration : 1,
     scrollTrigger : {
         trigger:".cont6blogsec",
-        start : "top 50%",
+        start : "top 80%",
     }
 });
 
@@ -462,7 +462,7 @@ gsap.from(".fc1div a",{
     duration : 1,
     scrollTrigger : {
         trigger:".fc1div",
-        start : "top 50%",
+        start : "top 80%",
     }
 });
 
@@ -475,6 +475,6 @@ gsap.from(".fc2div h4",{
     // repeat : -1,
     scrollTrigger : {
         trigger:".fc1div",
-        start : "top 50%",
+        start : "top 80%",
     }
 });
