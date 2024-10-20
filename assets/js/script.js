@@ -179,7 +179,7 @@ function breakTheTest2(){
     h14.innerHTML = clutter4;
 
     let h15 = document.querySelector(".lefth5");
-    let righth15 = h12.textContent;
+    let righth15 = h15.textContent;
     let righth1split5 = righth15.split("");
     var clutter5 = "";
     
