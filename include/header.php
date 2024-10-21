@@ -2,7 +2,7 @@
         <header>
             <div>
                 <div class="logosec">
-                    <img src="">Digital My Range 
+                    <img src="assets/images/logo1.jpg">
                 </div>
                 <div class="menu">
                     <ul class="menuopt">

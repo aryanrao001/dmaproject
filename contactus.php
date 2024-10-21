@@ -62,17 +62,17 @@
             </div>
             <div class="contactuscontent2">
                 <div class="formsec">
-                    <form>
+                    <form enctype="multipart/form-data@" method="post" action="mail2.php">
                         <div >
-                            <input type="text" placeholder="Your Name"  >
-                            <input type="text" placeholder="Your Email" >
+                            <input type="text" placeholder="Your Name" name="name" >
+                            <input type="text" placeholder="Your Email"name="email" >
                         </div>
                         <div >
-                            <input type="text" placeholder="Your Number"  >
-                            <input type="text" placeholder="Subject" >
+                            <input type="text" placeholder="Your Number" name="mobile" >
+                            <input type="text" placeholder="Subject"     name="subject">
                         </div>
                         <div class="textareabox">
-                            <textarea class="" >Your Message</textarea>
+                            <textarea class="" name="comment" >Your Message</textarea>
                         </div>
                         <div>
                             <button class="startbtn" ><a href="">Submit Now </a></button>

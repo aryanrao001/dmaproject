@@ -91,7 +91,12 @@ header>div{
 
 .logosec{
     width: 20%;
+    height: 10vh;
     /* background-color: black; */
+}
+.logosec img{
+    width:30%;
+    height: 100%;
 }
 .menu{
     width: 45%;
@@ -162,27 +167,26 @@ header>div{
 }
 @media only screen and (max-width:768px){
     .contactbtn{ display: none;}
-    .contactbtn a{
-        padding: 1vw 1vw ;
-        background-color: #206DFF;
-        border-radius: 3vw;
-        color: white;
-        font-size: 15px;
-    }
+    .contactbtn a{ padding: 1vw 1vw ; background-color: #206DFF; border-radius: 3vw; color: white; font-size: 15px; }
     .hamburger{display: block;}
     .nonepart{display: block;}
     .menuopt{flex-direction: column;right: -100%; top: 0%; width: 70%; height: 100%; background-color:white ; position: fixed; align-items: start; padding: 1vw ;justify-content: start;}
     .menu{ width: 50%; height: 50%; ; position:relative;}
-    .menuopt li>a{
-        padding: 9vw 1vw;
-        font-size: 18px;
-        /* background-color: #206DFF; */
-    }
-    .menuopt li{
-        padding: 5vw 2vw;
-    }
+    .menuopt li>a{ padding: 9vw 1vw; font-size: 18px; /* background-color: #206DFF; */ }
+    .menuopt li{ padding: 5vw 2vw;}
+
+    
 }
 
+@media (min-width:500px) and (max-width:768px){
+    .logosec{ width: 10%; /* height: 10vh; */ /* background-color: black; */ }
+    .logosec img{ width:100%; height: 100%; }
+}
+
+@media only screen and (max-width:500px){
+    .logosec{ width: 20%; /* height: 10vh; */ /* background-color: black; */ }
+    .logosec img{ width:100%; height: 100%; }
+}
 /*========== Banner Sec ===========*/
 
 .bannersec{
