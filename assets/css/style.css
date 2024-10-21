@@ -153,7 +153,13 @@ header>div{
 .hamburger{
     display: none;
 }
-
+.close{
+    position: absolute;
+    right: 5%;
+}
+.nonepart{
+    display: none;
+}
 @media only screen and (max-width:768px){
     .contactbtn{ display: none;}
     .contactbtn a{
@@ -164,6 +170,7 @@ header>div{
         font-size: 15px;
     }
     .hamburger{display: block;}
+    .nonepart{display: block;}
     .menuopt{flex-direction: column;right: -100%; top: 0%; width: 70%; height: 100%; background-color:white ; position: fixed; align-items: start; padding: 1vw ;justify-content: start;}
     .menu{ width: 50%; height: 50%; ; position:relative;}
     .menuopt li>a{

@@ -2,9 +2,14 @@
 function menutoggle(){
     let hamburger = document.querySelector(".hamburger");
     let menubuttons = document.querySelector(".menuopt");
+    let close = document.querySelector(".close");
+    console.log(close);
     console.log(hamburger);
     hamburger.addEventListener("click",function(){
-        menubuttons.style.left = "0%";
+        menubuttons.style.right = "0%";
+    });
+    close.addEventListener("click",function(){
+        menubuttons.style.right = "-100%";
     });
 }
 

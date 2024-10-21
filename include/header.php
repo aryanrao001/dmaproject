@@ -6,6 +6,7 @@
                 </div>
                 <div class="menu">
                     <ul class="menuopt">
+                        <li class="close" ><i class="fa-solid fa-xmark"></i></li>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us </a></li>
                         <li class="dropdown"><a href="services.php">Services</a>
@@ -16,6 +17,7 @@
                         </li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="pricing.php">Pricing</a></li>
+                        <li class="nonepart" ><a href="contactus.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="contactbtn">
