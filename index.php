@@ -28,8 +28,8 @@
                 <button  class="startbtn"><a href="">Get Started &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a></button>
             </div>
             <div class="bannerleft ">
-                <div  class="image-box"  id="imageBox" style="padding: 3vw 0 0 0;">
-                  <!-- <img width="90vw" height="80vh" src="assets/images/banner2bg.png"> -->
+                <div  class="image-box"  id="imageBox" style="padding: 1vw 0 0 0;">
+                  <img width="90vw" height="80vh" src="assets/images/banner2bg.png">
                 </div>
             </div>
         </div>

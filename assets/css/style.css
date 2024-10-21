@@ -63,7 +63,7 @@ header{
     height: 20vh;
     position: absolute;
     top: 0;
-    z-index: 999;
+    z-index: 999999999;
 }
 header>div{
     background-color: white;
@@ -76,6 +76,7 @@ header>div{
     justify-content: space-around;  
     border-radius: 4vw;
     position:fixed;
+    z-index: 9999999;
     top: 5%;
     /* padding: 0 2vw; */
 }
@@ -174,14 +175,20 @@ header>div{
     perspective: 1000px;
     position: relative;
 }
-.bannerleft{
-    background-image: url(../images/banner2bg.png);
-    width: 120vh;
+.bannerleft img{
+    margin: 7vw 0 0 0;
+    width: auto;
     height: 80vh;
+}
+/* .bannerleft{
+    background-image: url(../images/banner2bg.png);
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-repeat: none;
     background-position: bottom;
-}
+    margin: 3vw 0 0 0 ;
+} */
 .seobtn{
     background-color: #FFB525;
     padding: 1vw 1.5vw ;
@@ -324,13 +331,11 @@ span{
 .content1secdivimgsec{
     overflow: hidden;
     width: 100%;
-    margin: 0 vw 0 0;
+    /* margin: 0 0vw 0 0; */
     /* background-color: black; */
-    padding: 1vw;
+    /* padding: 1vw; */
 }
-.content1secdivcontsec{
-    margin: 0 vw 0 0;
-}
+
 
 .animated-image {
     width: 100%; /* Make the image responsive */
@@ -391,31 +396,14 @@ span{
 
 }
 .servicebox>div{
-    padding: 1vw 2vw ;
-    /* background-color: black; */
-  
+    padding: 1vw 2vw ;  
 }
-/* .servicebox::before{
-    content: url(image/one.webp);
-    position: absolute;
-    top: 3%;
-    right: 4%;
-    background-color: black;
-    color: rgb(202, 201, 201);
-} */
 .content2secdiv{
     width: 100%;
     justify-content: center;
     display: flex;
  }
- /* [data-scroll-container] {
-overflow: hidden; 
-}
 
-section {
-height: 100vh; 
-font-size: 2rem;
-} */
 .servicebox::before {
     content: '';
     background-image: url(../images/one.webp);
@@ -476,12 +464,6 @@ font-size: 2rem;
     font-weight: 200;
     padding: 2vw 0 ;
 }
-/* .startbtn{
-    background-color: white;
-    border: none;
-    margin: 2vw 0 ;
-    overflow: hidden;
-} */
 .startbtn{
     padding: 1vw 2vw ;
     border: solid #206DFF;
@@ -1195,4 +1177,175 @@ footer{
     position: absolute;
     /* z-index: ; */
     filter: blur(300px);
+}
+
+
+/*============== Services Page ================*/
+.servicecontent2{
+    height: 160vh;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servepageservicebox{
+    /* background-color: beige; */
+    width: 60vh;
+    height: 65vh;
+    padding: 1vw 1.5vw;
+    border-radius: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: 0.2s all;
+
+}
+.servepageservicebox:hover{
+    background-color:#EBF3F6;
+    transition: 1s all;
+}
+.servepageservicebox img{
+    width: 9vh;
+    height: auto;
+}
+.servepageservicebox2{
+    background-color: #EBF3F6;
+}
+.servepageservicebox h1{
+    /* padding: 3vw 0 1.5vw 0; */
+    font-size: 25px;
+    font-weight: 500;
+}
+.servepageservicebox p{
+    /* padding: 1vw 0 2vw 0; */
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 4.42vh;
+}
+
+.servicepageboxcontainer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+
+/*============ Contact Us ==============*/
+
+
+.content1contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 110vh;
+    padding: 0 0 15vw 0;
+}
+.content1contact>div{
+    width: 90%;
+}
+.contactuscontent1{
+    
+    width: 100%;
+    background-color: white;
+    padding: 3vw 0;
+
+}
+.contactusline{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.contactusline h1{
+    width: 60%;
+    font-size: 4vw;
+    font-weight: 500;
+}
+.contactusline p{
+    width: 40%;
+    font-size: 1.1vw ;
+    font-weight: 100;
+    text-align: right;
+}
+.contactuscontent2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.infobox{
+    box-shadow: 0.1vw 0.1vw 0.8vw 0.1vw rgb(226, 226, 226);
+    padding: 1vw 2vw;
+    width: 90% ;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 17vh;
+    margin: 0 0 3vw 0;
+    border-radius: 1.5vw;
+}
+.infobox p{
+    font-weight: 200;
+    font-size: 1.3vw;
+    padding: 0.5vw 0;
+}
+.infoi{
+    width: 3vh;
+    height: 3vh;
+    color: red;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2vw 0 0;
+}
+
+.formsec{
+    background-color: #EFEFEF;
+    height: 70vh;
+    width: 55%;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5vw;
+    justify-content: space-evenly;
+}
+.formsec form>div{
+    /* border: #206DFF solid   ; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.formsec input {
+    width: 49%;
+    height: 8vh;
+    border-radius: 1vw;
+    margin: 1vw 0 ;
+    padding: 1vw;
+    background-color: #EFEFEF;
+    border: solid grey 1px;
+}
+.formsec textarea{
+    width: 100%;
+    height: 20vh;
+    resize: none;
+    background-color: #EFEFEF;
+    padding: 1vw ;
+    border-radius: 1vw;
+}
+
+.formsec input::placeholder{
+    color: black;
+    font-weight: 500;
+}
+.formsec button{
+    width: 100%;
+    margin: 1vw 0 0 0;
+}
+.outerinfoboxes{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    flex-direction: column;
 }

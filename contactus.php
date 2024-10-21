@@ -15,17 +15,11 @@
         </div>
     </div>
 <!--================= Header ===========-->
-
+    
 <?php include('include/header.php'); ?>
 
 <!--================= Banner Sec =======-->
-
-
-<!---====================== Display none part ==================-->
-<!------ and they are so many below ---------->
-
-
-    <section style="display: none;" >
+    <section style="display: none;">
         <div class="bannersec">
             <div class="bannerright">
                 <button class="seobtn">Best Seo </button>
@@ -40,7 +34,8 @@
             </div>
         </div>
     </section>
-<!--========================== =============-->
+
+<!--=============== || =====================-->
 
 
     <section>
@@ -49,56 +44,55 @@
                 <div class="blurrycircle"></div>
             </div>
             <div>
-                <h1>Services </h1>
-                <h5>Home > Services </h5>
+                <h1>Contact Us </h1>
+                <h5>Home > Contact  Us </h5>
             </div>
         </div>
     </section>
 
 <!--================= Content Start ===-->
 <!--==========  Content 1 =====-->
-    <section style="display:none;">
-        <div class="content1" id="content1">
-            <div class="cont1service">
-                <div class="cont1imgcontainer"><img src="assets/images/conten1img1.webp"></div>
-                <div style="overflow: hidden;"><h2 id="content1h1">Simple Solution</h2></div>
-                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10">Simple Solution</h2></div> -->
-                <p>We handle everything, from branding to digital promotion.</p>
-            </div>
-            <div class="cont1service red">
-                <div class="cont1imgcontainer"><img src="assets/images/conten1img2.webp"></div>
-                <div style="overflow: hidden;"><h2 id="content1h1" >24/7</h2></div>
-                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >24/7</h2></div> -->
-                <p>Digital My Range – IT solutions, available 24/7.</p>
-            </div>
-            <div class="cont1service">
-                <div class="cont1imgcontainer"><img src="assets/images/conten1img3.webp"></div>
-                <div style="overflow: hidden;"><h2 id="content1h1" >Full management</h2></div>
-                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Full management</h2></div> -->
-                <p>Complete management solutions for your digital success.</p>
-            </div>
-            <div class="cont1service blue">
-                <div class="cont1imgcontainer2"><img src="assets/images/conten1img4.webp"></div>
-                <div style="overflow: hidden;"><h2 id="content1h1" >Client Oriented</h2></div>
-                <!-- <div style="overflow: hidden;"><h2 data-aos="fade-up"data-aos-delay="50" data-aos-duration="1000" data-aos-offset="10" >Client Oriented</h2></div> -->
-                <p>Your vision, our priority—client-oriented IT services.</p>
-            </div>
-        </div>
-        <div id="cont2trigger" class="content1secdiv">
-            <div  class="content1secdivimgsec">
-                <div  >
-                    <img  class="animated-image" src="assets/images/content1img5.webp">
+    <section class="content1contact">
+        <div>
+            <div class="contactuscontent1">
+                <div class="contactusline" >
+                    <h1>Get In Touch </h1>
+                    <p>Don’t hesitate to reach out! If you have any questions or would like to inquire about our services, feel free to contact us today!</p>
                 </div>
             </div>
-            <div  class="content1secdivcontsec" >
-                <button class="obtn" ><a href="#">About Us </a></button>
-                <h1 class="lefth1" id="lefth1" >Drive Conversions through SEO.</h1>
-                <p>Harness the power of our tailored SEO solutions to enhance your online visibility and drive meaningful traffic that converts into loyal customers.</p>
-                <ul>
-                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Boost visibility with higher search rankings.</li>
-                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Drive traffic through targeted keywords. </li>
-                    <li><i class="fa-solid fa-circle-check"></i> &nbsp;  Increase conversions with better user experience.</li>
-                </ul>
+            <div class="contactuscontent2">
+                <div class="formsec">
+                    <form>
+                        <div >
+                            <input type="text" placeholder="Your Name"  >
+                            <input type="text" placeholder="Your Email" >
+                        </div>
+                        <div >
+                            <input type="text" placeholder="Your Number"  >
+                            <input type="text" placeholder="Subject" >
+                        </div>
+                        <div class="textareabox">
+                            <textarea class="" >Your Message</textarea>
+                        </div>
+                        <div>
+                            <button class="startbtn" ><a href="">Submit Now </a></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="outerinfoboxes">
+                    <div class="infobox">
+                        <div class="infoi"><i class="fa-solid fa-envelope"></i></div>
+                        <div><h1>Email</h1><p>Company@mail.com</p></div>
+                    </div>
+                    <div class="infobox">
+                        <div class="infoi"><i class="fa-solid fa-phone"></i></div>
+                        <div><h1>Phone</h1><p>07795654561</p></div>
+                    </div>
+                    <div class="infobox">
+                        <div class="infoi" ><i class="fa-solid fa-location-dot"></i></div>
+                        <div><h1>Address</h1><p>69, 1st Floor, Near Bank Of Baroda, Gtb Nagar, Delhi - 110009 (Near Metro Station Gate No.1)</p></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -148,52 +142,8 @@
         </div>
     </section>
 
-
-    <section class="servicecontent2" >
-        <div class="innercontent2servicepage">
-            <div class="servicepageboxcontainer" >
-                <div class="servepageservicebox" >
-                    <div class="image-container"><img src="assets/images/service1img.webp"></div>
-                    <h1>Interactive Website Design</h1>
-                    <p>Creating engaging experiences with Interactive Website Design that captivates your audience.</p>
-                    <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
-                </div>
-                <div class="servepageservicebox servepageservicebox2" >
-                    <img src="assets/images/service1img.webp">
-                    <h1>Attractive Graphic Designing</h1>
-                    <p>Enhancing your brand with visually stunning designs that leave a memorable impression.</p>
-                    <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
-                </div>
-                <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
-                    <h1>Engaging Video Editing</h1>
-                    <p>Crafting visually compelling and dynamic videos that captivate your audience and elevate your brand.</p>
-                    <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
-                </div>
-                <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
-                    <h1>Creative Logo Design</h1>
-                    <p>Crafting unique and memorable logos that reflect your brand’s identity and stand out in the crowd.</p>
-                    <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
-                </div>
-                <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
-                    <h1>Effective Search Engine Optimization</h1>
-                    <p>Boosting your online visibility with tailored SEO strategies that drive organic traffic and enhance search rankings.</p>
-                    <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
-                </div>
-                <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
-                    <h1>Digital Experts</h1>
-                    <p>seo help people to gain knowledge about to invest and asve their money in the most Financial</p>
-                    <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
 <!--=========== Content 3 ======-->
-    <section>
+    <section style="display:none;">
         <div class="cont3">
             <div class="cont3left">
                 <div class="cont3box cont3effect">
@@ -238,7 +188,7 @@
     </section>
 
 <!--========== Content 4 =======-->
-    <section class="content4" >
+    <section class="content4" style="display:none;" >
         <div class="content4firdiv"> 
             <button class="servicebtn"  >Recent Blog  </button>
             <h1>
@@ -288,7 +238,7 @@
     </section>
 
 <!--========== Content 5 =======-->
-    <section class="content5 content" style="margin: 0 0 8vw 0 ;" >
+    <section class="content5 content" style="margin:0 0 8vw 0 ; display:none;">
         <button class="servicebtn" >FAQ</button>
         <h1>Achieve Higher Rankings<br> with Us That Work  </h1>
         <div class="cont5cirlce"></div>
@@ -386,7 +336,8 @@
     </section>
     
 <!--========== Footer =======-->
-    <?php include('include/footer.php'); ?>
+
+<?php include('include/footer.php'); ?>
 
 </div>    
 
@@ -396,7 +347,6 @@
 <!-- jQuery CDN -->
 
 <?php include('include/script.php'); ?>
-
 
 </body>
 </html>
