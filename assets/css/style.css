@@ -1276,6 +1276,17 @@ footer{
     gap: 10px;
 }
 
+@media (min-width:500px) and (max-width:768px){
+    .servicepageboxcontainer{grid-template-columns: 50% 50% ;}
+}
+@media only screen and (max-width:500px) {
+    .servicepageboxcontainer{grid-template-columns: 100% ;padding: 0 3vw;}
+    .servicecontent2{ height: 400vh; padding: 0 0 19vw 0 ;}
+    .servepageservicebox{ width: 50vh; height: 65vh; padding: 1vw 1.5vw; border-radius: 2vw; }
+    .servepageservicebox h1{  font-size: 22px; font-weight: 500;}
+    .servepageservicebox p{ /* padding: 1vw 0 2vw 0; */ font-weight: 200; font-size: 18px; line-height: 4.42vh; }
+}
+
 
 /*============ Contact Us ==============*/
 
@@ -1284,7 +1295,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 110vh;
+    min-height: 110vh;
     padding: 0 0 15vw 0;
 }
 .content1contact>div{
@@ -1395,4 +1406,30 @@ footer{
     align-items: center;
     /* justify-content: space-between; */
     flex-direction: column;
+}
+@media only screen and (max-width:500px){
+    .contactusline{flex-direction: column; align-items: center;justify-content: center;}
+    .contactusline h1{ width: 100%; font-size: 8vw; text-align: center; }
+    .contactusline p{ width: 100%; font-size: 4vw ; padding: 5vw 0; text-align: center; }
+    .contactuscontent2{ flex-direction: column; }
+    .formsec{ background-color: #EFEFEF; height: 60vh; width: 100%; padding: 2vw; display: flex; flex-direction: column; border-radius: 1.5vw; justify-content: space-evenly; }
+    .outerinfoboxes{ width: 100%; }
+    .infobox{ box-shadow: 0.1vw 0.1vw 0.8vw 0.1vw rgb(226, 226, 226); padding: 1vw 2vw; width: 100% ; display: flex; align-items: center; justify-content: start; height: 17vh; margin: 0 0 3vw 0; border-radius: 1.5vw; }
+    .infobox p{
+        font-weight: 200;
+        font-size: 5vw;
+        padding: 0.5vw 0;
+    }
+    .infoi{
+        width: 3vh;
+        height: 3vh;
+        color: red;
+        border: 1px solid grey;
+        border-radius: 50%;
+        padding: 1.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2vw 0 0;
+    }
 }
