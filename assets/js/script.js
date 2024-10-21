@@ -1,3 +1,19 @@
+
+function menutoggle(){
+    let hamburger = document.querySelector(".hamburger");
+    let menubuttons = document.querySelector(".menuopt");
+    console.log(hamburger);
+    hamburger.addEventListener("click",function(){
+        menubuttons.style.left = "0%";
+    });
+}
+
+menutoggle();
+
+
+
+
+
 // Cursor Code
 const circle = document.querySelector('.circle');
 

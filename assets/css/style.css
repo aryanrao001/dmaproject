@@ -84,7 +84,7 @@ header>div{
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    position: relative;
+    /* position: relative; */
     align-items: center;
 }
 
@@ -150,12 +150,37 @@ header>div{
         transform: translateX(50);
     }
 }
+.hamburger{
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    .contactbtn{ display: none;}
+    .contactbtn a{
+        padding: 1vw 1vw ;
+        background-color: #206DFF;
+        border-radius: 3vw;
+        color: white;
+        font-size: 15px;
+    }
+    .hamburger{display: block;}
+    .menuopt{flex-direction: column;right: -100%; top: 0%; width: 70%; height: 100%; background-color:white ; position: fixed; align-items: start; padding: 1vw ;justify-content: start;}
+    .menu{ width: 50%; height: 50%; ; position:relative;}
+    .menuopt li>a{
+        padding: 9vw 1vw;
+        font-size: 18px;
+        /* background-color: #206DFF; */
+    }
+    .menuopt li{
+        padding: 5vw 2vw;
+    }
+}
 
 /*========== Banner Sec ===========*/
 
 .bannersec{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     align-items: center;
     justify-content: space-around;
     background-color: #EBF3F6;
@@ -235,6 +260,11 @@ header>div{
     transform-style: preserve-3d;
     transition: transform 0.2s ease-out;
 }
+@media only screen and (max-width:768px){
+    .bannersec{ flex-direction: column; }
+    .bannerright h1{font-size: 35px;}
+    .bannerright p{ font-size: 15px;line-height: 20px;}
+}
 /*========== Content Start ===========*/
 /*=== Content 1 ========*/
 .cont1service img{
@@ -288,6 +318,12 @@ span{
     height: 0.1vh;
     top: 50%;
     background-color: rgb(214, 214, 214);
+}
+
+@media only screen and (max-width:500px){
+    .content1{grid-template-columns: 100%; gap:35px;}
+    .content1 h2{ font-weight: 600; font-size: 18px; padding: 0vw 0 1vw 0; }
+    .content1 p{ font-size: 15px; font-weight: 100; }
 }
 /*========== Content 1secdiv ===========*/
 .content1secdiv{
@@ -348,6 +384,17 @@ span{
     }
     50% {
         transform: translateY(-20px); /* Move up by 20px */
+    }
+}
+
+@media only screen and (max-width:500px){
+    .content1secdiv{flex-direction: column; padding: 9vw 2vw;}
+    .content1secdiv h1{ font-size: 40px; }
+    .content1secdiv p{ font-size: 15px; font-weight: 300; padding: 7vw 0; }
+    .content1secdiv ul li{ padding: 1vw 0 ; font-size: 10px; font-weight: 600; }
+    .content1secdiv ul li i{
+        color: #FFB525;
+        font-size: large;
     }
 }
 /*============== Content 2 =============*/
@@ -501,6 +548,20 @@ span{
     transition: 0.3s all ;
 }
 
+@media  only screen and (max-width:500px) {
+    .content2{ padding: 6vw 0;}
+    .content2firdiv h1{ font-size: 35px; text-align: center; }
+    .serviceboxcontainer{ grid-template-columns: 100%  ; padding: 2vw 2vw ; }
+    .servicebox h1{ font-size: 20px; padding: 5vw 0  ; font-weight: 500; }
+    .servicebox p{ font-size: 15px; font-weight: 200; padding:0 0 6vw 0 ; }
+    .servicebox img{ width: 12vh; }
+    .servicebox{ background-color: #EFEFEF; height: 55vh; }
+    .servicebox::before {  width: 80px;  height: 80px;  }
+    .servicebox2::before { width: 55px; height: 80px; }
+    .servicebox3::before { width: 60px;  height: 80px; }
+    .servicebox4::before { width: 60px;  height: 80px; }
+}
+
 /*============ Content 3 ==========*/
 .cont3{
     display: flex;
@@ -611,6 +672,17 @@ span{
         height: 65vh;
     }
 }
+
+@media only screen and (max-width:768px){
+    .cont3{ flex-direction: column; padding: 10vw 2vw ; }
+    .cont3left{padding: 4vw 0;}
+    .cont3box{ width: 40vh; height: 20vh; box-shadow: 0.1vw 0.1vw 0.5vw 0.1vw  rgb(213, 213, 213); padding: 3vw 1vw ;margin: 6vw 0; }
+    .seobox h1{ font-size: 18px; font-weight: 500; }
+    .seobox h5{ font-size: 18px; font-weight: 400; }
+    .cont3box img{width: 8vh; height: 8vh;}
+}
+
+
 /*=========== Content 4 =============*/
 .content4{
     /* background-color: black; */
@@ -635,7 +707,7 @@ span{
 }
 .pricesidediv{
     width: 65vh;
-    height: 73vh;
+    height: 70vh;
     background-color: white;
     padding: 2vw ;
     border-radius: 2vw;
@@ -740,92 +812,18 @@ span{
     transition: 0.2s all;
 }
 
+@media only screen and (max-width:500px) {
+    .content4{padding: 5vw 0;}
+    .content4firdiv h1{ font-size: 30px; text-align: center; padding: 3vw 0; }
+    .content4secdiv{flex-direction: column;}
+    .pricesidediv{ width: 50vh; height: 59vh; background-color: white; padding: 3vw ; border-radius: 2vw; margin: 5vw 0; }
+    .pricesidediv ul{ list-style-type: none; padding: 8vw 0;}
+    .pricesec h1{ font-size: 24px; }
+    .pricesec span{ font-size: 50px; }
+    .pricesidediv2{ height: 62vh; background-color: #206DFF;
+    }
+}
 
-
-
-
-
-.testimonials-wrap {
-    padding: 40px 0;
-  }
-  .heading-section {
-    text-align: center;
-  }
-  .sub-heading {
-    font-family: "Lato", sans-serif;
-    font-size: 12px;
-    display: block;
-    font-weight: 600;
-    color: #2e9ca1;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  .heading-section h2 {
-    font-size: 28px;
-    font-weight: 600;
-    padding-top: 10px;
-    padding-bottom: 15px;
-  }
-  .testimonial-box {
-    display: block;
-    position: relative;
-    padding: 30px 20px;
-    background: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.03);
-    border-radius: 5px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
-  }
-  .user-img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    position: relative;
-    min-width: 80px;
-    background-size: 100%;
-  }
-  .carousel-testimonial .item {
-    padding: 30px 10px;
-  }
-  .quote {
-    position: absolute;
-    top: -23px;
-    color: #2e9da1;
-    font-size: 27px;
-  }
-  .name {
-    margin-bottom: 0;
-    line-height: 14px;
-    font-size: 17px;
-    font-weight: 500;
-  }
-  .position {
-    color: #adadad;
-    font-size: 14px;
-  }
-  .carousel-testimonial .owl-nav {
-    text-align: center;
-  }
-  .carousel-testimonial .owl-nav button.owl-next,
-  .carousel-testimonial .owl-nav button.owl-prev {
-    padding: 0 12px !important;
-  }
-  .carousel-testimonial .owl-nav button {
-    outline: none;
-    padding: 0;
-  }
-  .carousel-testimonial .owl-nav button.owl-next span,
-  .carousel-testimonial .owl-nav button.owl-prev span {
-    display: block;
-    font-size: 40px;
-    width: 25px;
-    height: 25px;
-    /* vertical-align: 0px; */
-    line-height: 16px;
-  }
-  .carousel-testimonial .owl-nav button.owl-next.disabled,
-  .carousel-testimonial .owl-nav button.owl-prev.disabled {
-    opacity: 0.5;
-  }
   
 
 
@@ -969,6 +967,18 @@ span{
     filter: blur(150px);
 }
 
+@media only screen and (max-width:500px){
+    .content h1{ font-size: 30px ; }
+    .cont5contain{ flex-direction: column;}
+    .accordionsec{ width: 100%; padding: 13vw 0 ; }
+    ul.accordion-list li h3 { font-size: 16px !important;}
+    .cont5boxcontainer{ width: 100%; }
+    .cont5allbox{ display: flex; justify-content: space-between; padding: 1vw ; }
+    .cont5box{ background-color: white; box-shadow: 0vw 0.51vw   #EC191E; width: 20vh; height: 20vh; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 1vw; }
+    .cont5box h1{ font-size: 20px; }
+    .cont5box p{ font-size: 12px; font-weight: 400; padding: 1vw 0 0 0 ; }
+}
+
 /*============== Content 6 ==============*/
 .content6{
     padding: 2vw 7vw ;
@@ -1027,18 +1037,33 @@ span{
     color: #206DFF;
     transition: 1s all;
 }
+
+@media only screen and (max-width:500px){
+    .content6{padding: 19vw 1vw 9vw 1vw;}
+    .cont6top h1{font-size: 25px; padding: 4vw 0 0 0;}
+    .cont6top {flex-direction: column; justify-content: space-between;}
+    .cont6blogcontainer{ min-height: 200vh; display: flex; flex-direction: column; justify-content: space-between; margin: 29vw 0; }
+    .cont6blogsec img{width: 37vh ;}
+    .cont6blogsec{ width: 100%; height: 65vh; background-color: #EFEFEF; position: relative; padding: 1vw 2vw; margin: 19vw 0; border-bottom-left-radius: 2vw; border-bottom-right-radius: 2vw; }
+    .cont6blogsec button{ margin: 36vw 0 0.5vw 0 ; }
+    .cont6blogsec h1{ font-size: 20px;padding: 2vw 0;}
+    .cont6blogsec p{ font-weight: 200; font-size: 15px; padding: 0 0 2vw 0; }
+
+}
+
 /*=========== Footer ============**/
 footer{
     background-color: black;
     color: white;
     padding: 12vw 0 0 0;
     position: relative;
+    min-height: 150vh;
 }
 .fc1div{
     display: grid;
     grid-template-columns: 35% 20% 20% 20% ;
     /* background-color: #206DFF; */
-    height: 50vh;
+    min-height: 50vh;
     /* background-color: #206DFF; */
     /* margin: 12vw 0; */
 
@@ -1145,6 +1170,21 @@ footer{
     color: white;
 }
 
+@media (min-width: 0px) and (max-width: 1024px) {
+    .newsletter{display: none;}
+    .fc1div{ grid-template-columns: 100% ; height: 140vh; }
+    .fc1div>div{ padding: 0 1vw ; border-right: rgb(80, 80, 80) solid 1px ; }
+    .fc2div{
+        flex-direction: column;
+        padding: 2vw 7vw ;
+    }
+    .fc2div h4{
+        font-size: 15px ;
+        font-weight: 400;
+        padding: 2vw 0;
+    }
+    
+}
 
 /*=============== About Us Page =============*/
 .innerbannersec{
