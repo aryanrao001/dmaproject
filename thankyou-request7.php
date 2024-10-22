@@ -20,9 +20,6 @@
     <link rel="stylesheet" href="assets/css/templatemo-edu-meeting.css">
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
-    <?php
-        include('includes/css.php');
-    ?>
 <!--
 
 TemplateMo 569 Edu Meeting
@@ -69,6 +66,9 @@ https://templatemo.com/tm-569-edu-meeting
     }
     button:hover a{
         color:white;
+    }
+    @media only screen and (max-width:500px){
+        button{font-size:5vw ;}
     }
 
 </style>

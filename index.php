@@ -290,7 +290,7 @@
 
 <!--========== Content 6 =======-->
     <section class="content6 content">
-        <button class="servicebtn">Recent Blogs </button>
+        <div class="blogbtn" ><button class="servicebtn">Recent Blogs </button></div>
         <div class="cont6top">
             <h1>Unlocking the Power <br> of Search </h1>
             <button class="startbtn" ><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a></button>
