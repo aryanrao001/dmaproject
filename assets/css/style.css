@@ -49,6 +49,9 @@ body, html {
     margin: 0;
     /* Hide default scrollbar */
 }
+.close{
+    display: none;
+}
 
 /*========== Header ===========*/
 
@@ -161,6 +164,7 @@ header>div{
 .close{
     position: absolute;
     right: 5%;
+    display: none;
 }
 .nonepart{
     display: none;
@@ -174,6 +178,7 @@ header>div{
     .menu{ width: 50%; height: 50%; ; position:relative;}
     .menuopt li>a{ padding: 9vw 1vw; font-size: 18px; /* background-color: #206DFF; */ }
     .menuopt li{ padding: 5vw 2vw;}
+    .close{display: block;}
 
     
 }
@@ -214,7 +219,7 @@ header>div{
 .bannerleft img{
     margin: 7vw 0 0 0;
     width: auto;
-    height: 80vh;
+    height: 66vh;
 }
 /* .bannerleft{
     background-image: url(../images/banner2bg.png);
@@ -562,15 +567,16 @@ span{
 @media  only screen and (max-width:500px) {
     .content2{ padding: 6vw 0;}
     .content2firdiv h1{ font-size: 35px; text-align: center; }
-    .serviceboxcontainer{ grid-template-columns: 100%  ; padding: 2vw 2vw ; }
+    .serviceboxcontainer{ grid-template-columns: 100%  ; padding: 2vw 4% ; }
+    .servicebox{padding: 0vw 2% ;}
     .servicebox h1{ font-size: 20px; padding: 5vw 0  ; font-weight: 500; }
     .servicebox p{ font-size: 15px; font-weight: 200; padding:0 0 6vw 0 ; }
     .servicebox img{ width: 12vh; }
     .servicebox{ background-color: #EFEFEF; height: 55vh; }
-    .servicebox::before {  width: 80px;  height: 80px;  }
-    .servicebox2::before { width: 55px; height: 80px; }
-    .servicebox3::before { width: 60px;  height: 80px; }
-    .servicebox4::before { width: 60px;  height: 80px; }
+    .servicebox::before {  width: 80px;  height: 120px;  }
+    .servicebox2::before { width: 85px;  height: 120px; }
+    .servicebox3::before { width: 90px;  height: 120px; }
+    .servicebox4::before { width: 90px;  height: 120px; }
 }
 
 /*============ Content 3 ==========*/
@@ -711,7 +717,7 @@ span{
     text-align: center;
 }
 .content4secdiv{
-    padding: 5vw 0 ;
+    padding: 5vw  ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -824,10 +830,10 @@ span{
 }
 
 @media only screen and (max-width:500px) {
-    .content4{padding: 5vw 0;}
+    .content4{padding: 5vw 11px;}
     .content4firdiv h1{ font-size: 30px; text-align: center; padding: 3vw 0; }
-    .content4secdiv{flex-direction: column;}
-    .pricesidediv{ width: 50vh; height: 59vh; background-color: white; padding: 3vw ; border-radius: 2vw; margin: 5vw 0; }
+    .content4secdiv{flex-direction: column; padding: 5vw 12vw;}
+    .pricesidediv{ width: 50vh; height: 59vh; background-color: white; padding: 3.8vw ; border-radius: 2vw; margin: 5vw 3vw; }
     .pricesidediv ul{ list-style-type: none; padding: 8vw 0;}
     .pricesec h1{ font-size: 24px; }
     .pricesec span{ font-size: 50px; }
@@ -983,7 +989,7 @@ span{
     .cont5contain{ flex-direction: column;}
     .accordionsec{ width: 100%; padding: 13vw 0 ; }
     ul.accordion-list li h3 { font-size: 16px !important;}
-    .cont5boxcontainer{ width: 100%; }
+    .cont5boxcontainer{ width: 100%; padding: 5vw 0;}
     .cont5allbox{ display: flex; justify-content: space-between; padding: 1vw ; }
     .cont5box{ background-color: white; box-shadow: 0vw 0.51vw   #EC191E; width: 20vh; height: 20vh; display: flex; flex-direction: column; align-items: center; justify-content: center; border-radius: 1vw; }
     .cont5box h1{ font-size: 20px; }
@@ -1052,8 +1058,9 @@ span{
 @media only screen and (max-width:500px){
     .content6{padding: 19vw 1vw 9vw 1vw;}
     .cont6top h1{font-size: 25px; padding: 4vw 0 0 0;}
-    .cont6top {flex-direction: column; justify-content: space-between;}
-    .cont6blogcontainer{ min-height: 200vh; display: flex; flex-direction: column; justify-content: space-between; margin: 29vw 0; }
+    .cont6top {flex-direction: column; justify-content: start;align-items: start;}
+    .blogbtn{padding: 7vw 0 0 0;}
+    .cont6blogcontainer{ min-height: 200vh; display: flex; flex-direction: column; justify-content: space-between; margin: 24vw 0; }
     .cont6blogsec img{width: 37vh ;}
     .cont6blogsec{ width: 100%; height: 65vh; background-color: #EFEFEF; position: relative; padding: 1vw 2vw; margin: 19vw 0; border-bottom-left-radius: 2vw; border-bottom-right-radius: 2vw; }
     .cont6blogsec button{ margin: 36vw 0 0.5vw 0 ; }
@@ -1068,7 +1075,7 @@ footer{
     color: white;
     padding: 12vw 0 0 0;
     position: relative;
-    min-height: 150vh;
+    min-height: 100vh;
 }
 .fc1div{
     display: grid;

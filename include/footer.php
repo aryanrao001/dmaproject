@@ -13,7 +13,7 @@
         <div class="footersecdiv">
             <div class="fc1div">
                 <div>
-                    <h1>DMA </h1>
+                    <h1>DMR (Digital Marketing Agency) </h1>
                     <p>SEO offers insights for smart money management, while financial planners provide expert guidance for better financial decisions. </p>
                     <div class="mediasec" >
                         <i class="fa-brands fa-facebook-f"></i>
