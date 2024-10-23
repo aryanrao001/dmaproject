@@ -90,7 +90,7 @@
                     </div>
                     <div class="infobox">
                         <div class="infoi" ><i class="fa-solid fa-location-dot"></i></div>
-                        <div><h1>Address</h1><p>69, 1st Floor, Near Bank Of Baroda, Gtb Nagar, Delhi - 110009 (Near Metro Station Gate No.1)</p></div>
+                        <div><h1>Address</h1><p>69, 1st Floor, Near Bank Of Baroda, GTB Nagar, Delhi - 110009 (Near Metro Station Gate No.1)</p></div>
                     </div>
                 </div>
             </div>

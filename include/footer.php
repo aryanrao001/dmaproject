@@ -30,21 +30,21 @@
                 </div>
                 <div>
                     <h1>Useful Link </h1>
-                    <a href="#">Latest News          </a>
-                    <a href="#">Careers              </a>
-                    <a href="#">General Inquiries    </a>
-                    <a href="#">Case Studies         </a>
+                    <a href="index.php">Home                 </a>
+                    <a href="about.php">About                </a>
+                    <a href="services.php">Services             </a>
+                    <a href="pricing.php">Pricing              </a>
                 </div>
                 <div>
                     <h1>Contact </h1>
-                    <a href="#">+880 123 45 67 89        </a>
-                    <a href="#">yourmail@gmail.com       </a>
-                    <a href="#">1212, The Veg Street     </a>
+                    <a href="#">07795654561       </a>
+                    <a href="#">Company@mail.com      </a>
+                    <a href="#">Near Bank Of Baroda, GTB Nagar, Delhi - 110009      </a>
                     <a href="#">Case Studies             </a>
                 </div>
             </div>
             <div class="fc2div">
-                <h4>© SeoTop 2024 &nbsp; | &nbsp; All Rights Reserved</h4> 
+                <h4>© DMR 2024 &nbsp; | &nbsp; All Rights Reserved</h4> 
                 <h4>Privacy &nbsp; | &nbsp; Terms &nbsp; | &nbsp; Sitemap &nbsp; | &nbsp; Help</h4>
             </div>
         </div>
