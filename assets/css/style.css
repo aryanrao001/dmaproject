@@ -206,10 +206,14 @@ header>div{
 }
 /* .bannerright{
     width: 50% ;
-}
-.bannerleft{
+} */
+/* .bannerleft{
     width: 45%;
     text-align: right;
+} */
+/* .bannerleft img{
+    width: 100%;
+    height: 100% ;
 } */
  
 .bannerleft{
@@ -221,15 +225,16 @@ header>div{
     width: auto;
     height: 66vh;
 }
-/* .bannerleft{
-    background-image: url(../images/banner2bg.png);
-    width: 100%;
-    height: 100%;
-    background-size: cover;
+.bannerleft{
+    background-image: url(../images/hero_model1.webp) ;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 60vh;
+    background-size: contain;
     background-repeat: none;
     background-position: bottom;
     margin: 3vw 0 0 0 ;
-} */
+}
 .seobtn{
     background-color: #FFB525;
     padding: 1vw 1.5vw ;
@@ -280,6 +285,8 @@ header>div{
     .bannersec{ flex-direction: column; }
     .bannerright h1{font-size: 35px;}
     .bannerright p{ font-size: 15px;line-height: 20px;}
+    .bannerleft{ background-image: url(../images/hero_model1.webp) ;background-repeat: no-repeat; width: 110%; height: 80vh; background-size: contain; background-repeat: none; background-position: bottom; margin: 3vw 0 0 0 ;
+    }
 }
 /*========== Content Start ===========*/
 /*=== Content 1 ========*/
@@ -832,12 +839,12 @@ span{
 @media only screen and (max-width:500px) {
     .content4{padding: 5vw 11px;}
     .content4firdiv h1{ font-size: 30px; text-align: center; padding: 3vw 0; }
-    .content4secdiv{flex-direction: column; padding: 5vw 12vw;}
-    .pricesidediv{ width: 50vh; height: 59vh; background-color: white; padding: 3.8vw ; border-radius: 2vw; margin: 5vw 3vw; }
+    .content4secdiv{flex-direction: column; padding: 5vw 1vw;}
+    .pricesidediv{ width: 45vh; height: 55vh; background-color: white; padding: 3.8vw ; border-radius: 2vw; margin: 5vw 3vw; }
     .pricesidediv ul{ list-style-type: none; padding: 8vw 0;}
     .pricesec h1{ font-size: 24px; }
     .pricesec span{ font-size: 50px; }
-    .pricesidediv2{ height: 62vh; background-color: #206DFF;
+    .pricesidediv2{ height: 58vh; background-color: #206DFF;
     }
 }
 
@@ -1293,7 +1300,7 @@ footer{
 @media only screen and (max-width:500px) {
     .servicepageboxcontainer{grid-template-columns: 100% ;padding: 0 3vw;}
     .servicecontent2{ height: 400vh; padding: 0 0 19vw 0 ;}
-    .servepageservicebox{ width: 50vh; height: 65vh; padding: 1vw 1.5vw; border-radius: 2vw; }
+    .servepageservicebox{ width: 48vh; height: 65vh; padding: 1vw 3vw; border-radius: 2vw; }
     .servepageservicebox h1{  font-size: 22px; font-weight: 500;}
     .servepageservicebox p{ /* padding: 1vw 0 2vw 0; */ font-weight: 200; font-size: 18px; line-height: 4.42vh; }
 }
@@ -1428,4 +1435,7 @@ footer{
     .infobox{ box-shadow: 0.1vw 0.1vw 0.8vw 0.1vw rgb(226, 226, 226); padding: 1vw 2vw; width: 100% ; display: flex; align-items: center; justify-content: start; height: 17vh; margin: 0 0 3vw 0; border-radius: 1.5vw; }
     .infobox p{ font-weight: 200; font-size: 5vw; padding: 0.5vw 0; }
     .infoi{ width: 3vh; height: 3vh; color: red; border: 1px solid grey; border-radius: 50%; padding: 1.5vw; display: flex; justify-content: center; align-items: center; margin: 0 2vw 0 0; }
+    .formsec form>div{flex-direction: column;}
+    .formsec input{width: 100%; margin: 2vw 0; border: solid 1px rgb(182, 182, 182);}
+    .formsec{height: 72vh;}
 }

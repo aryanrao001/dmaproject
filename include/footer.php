@@ -30,16 +30,16 @@
                 </div>
                 <div>
                     <h1>Useful Link </h1>
-                    <a href="#">Latest News          </a>
-                    <a href="#">Careers              </a>
-                    <a href="#">General Inquiries    </a>
-                    <a href="#">Case Studies         </a>
+                    <a href="services.php">Services           </a>
+                    <a href="about.php">About Us              </a>
+                    <a href="contactus.php">Contact Us     </a>
+                    <a href="pricing.php">Pricing        </a>
                 </div>
                 <div>
                     <h1>Contact </h1>
-                    <a href="#">+880 123 45 67 89        </a>
-                    <a href="#">yourmail@gmail.com       </a>
-                    <a href="#">1212, The Veg Street     </a>
+                    <a href="#">+91 7500537068       </a>
+                    <a href="#">kumarrahul38994@gmail.com       </a>
+                    <a href="#">Near Bank Of Baroda, GTB Nagar, Delhi     </a>
                     <a href="#">Case Studies             </a>
                 </div>
             </div>

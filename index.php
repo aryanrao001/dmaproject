@@ -29,7 +29,7 @@
             </div>
             <div class="bannerleft ">
                 <div  class="image-box"  id="imageBox" style="padding: 1vw 0 0 0;">
-                  <img width="90vw" height="80vh" src="assets/images/banner2bg.png">
+                  <!-- <img width="90vw" height="80vh" src="assets/images/hero_model1.webp"> -->
                 </div>
             </div>
         </div>
