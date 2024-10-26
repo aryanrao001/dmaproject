@@ -72,7 +72,7 @@
                             <input type="text" placeholder="Subject"     name="subject">
                         </div>
                         <div class="textareabox">
-                            <textarea class="" name="comment" >Your Message</textarea>
+                            <textarea class="" name="comment" >Your Message </textarea>
                         </div>
                         <div>
                             <button class="startbtn" ><a href="">Submit Now </a></button>
@@ -82,11 +82,11 @@
                 <div class="outerinfoboxes">
                     <div class="infobox">
                         <div class="infoi"><i class="fa-solid fa-envelope"></i></div>
-                        <div><h1>Email</h1><p>Company@mail.com</p></div>
+                        <div><h1>Email</h1><p>kumarrahul38994@gmail.com</p></div>
                     </div>
                     <div class="infobox">
                         <div class="infoi"><i class="fa-solid fa-phone"></i></div>
-                        <div><h1>Phone</h1><p>07795654561</p></div>
+                        <div><h1>Phone</h1><p>+91 7500537068</p></div>
                     </div>
                     <div class="infobox">
                         <div class="infoi" ><i class="fa-solid fa-location-dot"></i></div>

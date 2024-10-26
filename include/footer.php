@@ -30,6 +30,18 @@
                 </div>
                 <div>
                     <h1>Useful Link </h1>
+<<<<<<< HEAD
+                    <a href="services.php">Services           </a>
+                    <a href="about.php">About Us              </a>
+                    <a href="contactus.php">Contact Us     </a>
+                    <a href="pricing.php">Pricing        </a>
+                </div>
+                <div>
+                    <h1>Contact </h1>
+                    <a href="#">+91 7500537068       </a>
+                    <a href="#">kumarrahul38994@gmail.com       </a>
+                    <a href="#">Near Bank Of Baroda, GTB Nagar, Delhi     </a>
+=======
                     <a href="index.php">Home                 </a>
                     <a href="about.php">About                </a>
                     <a href="services.php">Services             </a>
@@ -40,6 +52,7 @@
                     <a href="#">07795654561       </a>
                     <a href="#">Company@mail.com      </a>
                     <a href="#">Near Bank Of Baroda, GTB Nagar, Delhi - 110009      </a>
+>>>>>>> b8803ed3d87a76d7b60a6cccbac30334714133e7
                     <a href="#">Case Studies             </a>
                 </div>
             </div>

@@ -16,7 +16,7 @@ $mail = new PHPMailer();
 		//$mail->From = "Agus";
 		$mail->FromName = ("DMR");
 		//$mail->FromName = "Agus";	
-		$mail->AddAddress("aryanrao9311@gmail.com");
+		$mail->AddAddress("kumarrahul38994@gmail.com");
 		//$mail->AddCC("cuteraj111@gmail.com");
 		//$mail->AddBCC("anant299@gmail.com");	
 		$mail->WordWrap = 500;                           
