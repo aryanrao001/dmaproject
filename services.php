@@ -159,34 +159,86 @@
                     <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
                 </div>
                 <div class="servepageservicebox servepageservicebox2" >
-                    <img src="assets/images/service1img.webp">
+                    <div class="image-container"><img src="assets/images/service2img.webp"></div>
                     <h1>Attractive Graphic Designing</h1>
                     <p>Enhancing your brand with visually stunning designs that leave a memorable impression.</p>
                     <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
                 </div>
                 <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
+                    <div class="image-container"><img src="assets/images/service3img.webp"></div>
                     <h1>Engaging Video Editing</h1>
                     <p>Crafting visually compelling and dynamic videos that captivate your audience and elevate your brand.</p>
                     <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
                 </div>
                 <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
+                    <div class="image-container"><img src="assets/images/service4img.webp"></div>
                     <h1>Creative Logo Design</h1>
                     <p>Crafting unique and memorable logos that reflect your brand’s identity and stand out in the crowd.</p>
                     <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
                 </div>
                 <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
+                    <div class="image-container"><img src="assets/images/service5img.webp"></div>
                     <h1>Effective Search Engine Optimization</h1>
                     <p>Boosting your online visibility with tailored SEO strategies that drive organic traffic and enhance search rankings.</p>
                     <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
                 </div>
                 <div class="servepageservicebox" >
-                    <img src="assets/images/service1img.webp">
+                    <div class="image-container"><img src="assets/images/service6img.webp"></div>
                     <h1>Digital Experts</h1>
                     <p>seo help people to gain knowledge about to invest and asve their money in the most Financial</p>
                     <div><button class="startbtn" ><a href="servicebtn">Get Started</a></button> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--========= Our Expertise ====--> 
+    <section class="expertisesec" >
+        <h1>Our Expertise </h1>
+        <p>We offer a comprehensive suite of digital solutions that are designed to transform your online presence and <br> deliver tangible business outcomes: </p>
+        <div class="expertisediv" >
+            <div class="timeline">
+                <div class="timeline-item timeline-item-left">
+                    <div class="outercontent ">
+                        <div class="scontent">
+                            <h3> Strategic Digital Marketing Solutions</h3>
+                            <p>In todays competitive market a well executed strategy is vital to  business success. At Digital My Range, we develop sophisticated, multi-channel strategies designed to enhance brand visibility, drive targeted traffic, and optimize conversions. By leveraging in-depth market research, analytics, and a keen understanding of consumer behavior, we ensure your business remains competitive in a dynamic digital landscape. Our approach is not just about delivering results – it’s about delivering the right results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-right">
+                    <div class="outercontent">
+                        <div class="scontent">
+                            <h3>Search Engine Optimization (SEO)</h3>
+                            <p>In a world where online search drives purchasing decisions, visibility is paramount. Our SEO services are built on a foundation of technical precision, content relevance, and authoritative link-building. We tailor our SEO strategies to improve your rankings across major search engines, driving high-quality, organic traffic that converts. From comprehensive on-page optimization to advanced technical audits, we employ a holistic approach that enhances both your search engine presence and user experience. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="outercontent">
+                        <div class="scontent">
+                            <h3> Bespoke Web Development & Design </h3>
+                            <p>A Website is Your Storefront and a key touchpoint for your customers. At Digital My Range, we specialize in the development of high-performance, responsive websites that are as visually stunning as they are functional. Our expert team of developers and designers collaborate closely to create bespoke websites that are fully optimized for speed, security, and scalability. Whether you require a corporate site or a full-featured e-commerce platform, we deliver tailored solutions that captivate and convert your audience. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-right">
+                    <div class="outercontent" >
+                        <div class="scontent">
+                            <h3>Social Media Advertising</h3>
+                            <p>With social media platforms becoming critical to brand visibility, our targeted social advertising solutions are designed to deliver maximum engagement and ROI. We craft data-driven social media campaigns that leverage the full power of platforms like Facebook, Instagram, LinkedIn, and more, reaching your desired audience with precision. Our campaigns are optimized to build meaningful connections, generate leads, and drive business growth, ensuring your brand cuts through the noise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="outercontent">
+                        <div class="scontent">
+                            <h3> Google Ads/ Pay-Per-Click (PPC) Campaigns</h3>
+                            <p>We specialize in the creation and management of high-impact PPC campaigns that deliver targeted results. Using platforms such as Google Ads and Bing Ads, our approach focuses on maximizing your return on investment through highly targeted ad placement and continuous optimization. With a focus on driving qualified traffic and conversion, our PPC solutions ensure that every ad dollar works to expand your business’s reach and bottom line.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

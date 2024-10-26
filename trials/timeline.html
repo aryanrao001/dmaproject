@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline Layout</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f9;
+            padding: 20px;
+        }
+        .timeline {
+            width: 100%;
+            max-width: 800px;
+            position: relative;
+            padding: 20px 0;
+        }
+
+        /* Central Line */
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background-color: #4CAF50;
+            transform: translateX(-50%);
+        }
+
+        /* Timeline Items */
+        .timeline-item {
+            padding: 20px;
+            position: relative;
+            width: 50%;
+        }
+
+        .timeline-item-left {
+            left: -5%;
+            text-align: right;
+        }
+
+        .timeline-item-right {
+            left: 50%;
+        }
+
+        /* Connectors */
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 20px;
+            border-radius: 50%;
+            background-color: #4CAF50;
+            border: 3px solid #fff;
+            z-index: 1;
+        }
+
+        .timeline-item-left::after {
+            right: -12px;
+        }
+
+        .timeline-item-right::after {
+            left: -12px;
+        }
+
+        /* Content Styling */
+        .content {
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="timeline">
+        <div class="timeline-item timeline-item-left">
+            <div class="content">
+                <h3>Milestone 1</h3>
+                <p>Details about the first milestone or event.</p>
+            </div>
+        </div>
+        <div class="timeline-item timeline-item-right">
+            <div class="content">
+                <h3>Milestone 2</h3>
+                <p>Details about the second milestone or event.</p>
+            </div>
+        </div>
+        <div class="timeline-item timeline-item-left">
+            <div class="content">
+                <h3>Milestone 3</h3>
+                <p>Details about the third milestone or event.</p>
+            </div>
+        </div>
+        <div class="timeline-item timeline-item-right">
+            <div class="content">
+                <h3>Milestone 4</h3>
+                <p>Details about the fourth milestone or event.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

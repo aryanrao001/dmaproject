@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+ 
 <?php include('include/css.php'); ?>
 
 </head>
@@ -49,6 +49,29 @@
             </div>
         </div>
     </section>
+
+
+<!--================ About Sec ==============--> 
+    <section class="aboutsec" >
+        <div class="aboutnew" >
+            <div class="aboutimage" >
+                <img src="assets/images/aboutphoto.webp">
+            </div>
+            <div class="aboutcontent" >
+                <h3>About Us </h3>
+                <h1>WHO WE ARE ?? </h1>
+                <p>At “Digital My Range”, we are a distinguished leader in the realm of digital marketing and web development, dedicated to propelling businesses toward sustained digital excellence. Through a combination of strategic insight, cutting-edge technology, and unparalleled expertise, we provide bespoke solutions that empower brands to thrive in an increasingly competitive digital marketplace. Our core philosophy centers on measurable results, innovation, and a relentless commitment to our clients’ success.
+                </p><br><p>As Delhi’s leading digital marketing agency, we set the benchmark for digital success. Our holistic approach is centered on data, creativity, and innovation. We believe in building long-term relationships with our clients, helping them succeed in a rapidly evolving digital landscape. Our focus on delivering measurable results, backed by real-time analytics and performance tracking, ensures that your marketing investments deliver maximum value.
+                </p>
+            </div>
+        <div>
+    </section>
+
+
+
+
+
+
 
 <!--================= Content Start ===-->
 <!--==========  Content 1 =====-->
@@ -235,6 +258,14 @@
                 </ul>
                 <button class="getnow"><a href="#">Get Now &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a></button>
             </div>
+        </div>
+    </section>
+
+<!--======== Mission Sec ========-->
+    <section class="missionsec" >
+        <div class="missiondiv " >
+            <h1>Our Mission </h1>
+            <p><i class="fa-solid fa-quote-left"></i>In an era defined by rapid technological advancement and evolving consumer behavior, Digital My Range is committed to providing businesses with the tools, strategies, and insights required to excel in the digital landscape. Our mission is to not only meet but exceed our clients’ expectations, driving performance through data-driven strategies that are meticulously crafted to address the unique needs and challenges of each business. We aim to be the catalyst for growth, creating sustainable success through precision, creativity, and expertise.<i class="fa-solid fa-quote-right"></i> </p>
         </div>
     </section>
 
