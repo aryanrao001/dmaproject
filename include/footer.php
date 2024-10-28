@@ -9,7 +9,7 @@
                     <input type="text" placeholder="Enter your Email"><button class="seobtn" >Subscribe Now</button>
                 </div>
             </div>
-        </div>
+        </div> 
         <div class="footersecdiv">
             <div class="fc1div">
                 <div>

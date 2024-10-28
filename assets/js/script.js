@@ -364,8 +364,8 @@ const timeline = gsap.timeline({
 // First animation for .cont3effect
 timeline.from(".cont3effect", {
     opacity: 0,
-    duration: 1,
-    stagger: 1,
+    duration: 5,
+    stagger: 3,
     rotateX: 200,
     x: 400,
 })
@@ -373,8 +373,8 @@ timeline.from(".cont3effect", {
 .to(".cont3img", {
     opacity: 0,
     scale: 3,
-    duration: 3,
-    stagger: 1,
+    duration: 7,
+    stagger: 3,
     rotate: 90,
     // x: 200,
 });
