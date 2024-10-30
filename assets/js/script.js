@@ -522,7 +522,7 @@ gsap.from(".fc1div a",{
     duration : 1,
     scrollTrigger : {
         trigger:".fc1div",
-        start : "top 80%",
+        start : "top 90%",
     }
 });
 
@@ -535,6 +535,43 @@ gsap.from(".fc2div h4",{
     // repeat : -1,
     scrollTrigger : {
         trigger:".fc1div",
-        start : "top 80%",
+        start : "top 90%",
+    }
+});
+
+/*=========== Serve Anime ===========*/
+gsap.from(".servicedivided",{
+    y:200,
+    opacity: 0,
+    delay:1.5,
+    stagger: 2,
+    duration : 1,
+    // repeat : -1,
+});
+gsap.from(".mainserve",{
+    x:200,
+    opacity: 0.5,
+    delay:1,
+    stagger: 2,
+    duration : 2,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".serveanime",
+        start : "top 100%",
+        scrub : true
+    }
+});
+
+gsap.from(".mainserve2",{
+    x:-200,
+    opacity: 0.5,
+    delay:1,
+    stagger: 2,
+    duration : 2,
+    // repeat : -1,
+    scrollTrigger : {
+        trigger:".serveanime",
+        start : "top 90%",
+        scrub : true
     }
 });

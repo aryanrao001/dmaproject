@@ -165,66 +165,67 @@
     </section>
 
 <!--=========== Below Parts =====-->
-    <section class="mainserve" >
-        <div class="servicesections" >
-            <div class="servicesimages" >
-                <img src="assets/images/seo3.webp">
-            </div  >
-            <div class="servicescontent" >
-                <h5>SEO Service </h5>
-                <h1>Keyword Research & Strategy </h1>
-                <p>We conduct thorough keyword research to identify the terms your targe taudieence is searching for. We deveop a keyword strategy that aligns with your business goals, ensurign high relevance and search </p>
+    <div class="serveanime" >
+        <section class="mainserve" >
+            <div class="servicesections" >
+                <div class="servicesimages" >
+                    <img src="assets/images/seo3.webp">
+                </div  >
+                <div class="servicescontent" >
+                    <h5>SEO Service </h5>
+                    <h1>Keyword Research & Strategy </h1>
+                    <p>We conduct thorough keyword research to identify the terms your targe taudieence is searching for. We deveop a keyword strategy that aligns with your business goals, ensurign high relevance and search </p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="mainserve" >
-        <div class="servicesections" >
-            <div class="servicescontent" >
-                <h5>SEO Service </h5>
-                <h1>Technical SEO  </h1>
-                <p> We optimize your website's content, ensuring it is relevant, engaging, and includes targeted keywords. We craft compelling meta titles and descriptions to improve click-through rates from search engine.<br><br> We enhance your website's internal linking structure to improve navigation and distribute page authority. </p>
+        <section class=" mainserve2" >
+            <div class="servicesections" >
+                <div class="servicescontent" >
+                    <h5>SEO Service </h5>
+                    <h1>Technical SEO  </h1>
+                    <p> We optimize your website's content, ensuring it is relevant, engaging, and includes targeted keywords. We craft compelling meta titles and descriptions to improve click-through rates from search engine.<br><br> We enhance your website's internal linking structure to improve navigation and distribute page authority. </p>
+                </div>
+                <div class="servicesimages" >
+                    <img src="assets/images/seo4.webp">
+                </div>
             </div>
-            <div class="servicesimages" >
-                <img src="assets/images/seo4.webp">
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="mainserve" >
-        <div class="servicesections" >
-            <div class="servicesimages" >
-                <img src="assets/images/seo5.webp">
-            </div  >
-            <div class="servicescontent" >
-                <h5>SEO Service </h5>
-                <h1>Content Creation & Optimization  </h1>
-                <p>We regularly publis blog posts and articles to keep your website fresh and relevant. We perform cntent audits to identify gaps and opportunities for optimization. <br><br> We create engaging informative content that resonates with your audience and is optimized for search engines</p> 
+        <section class="mainserve" >
+            <div class="servicesections" >
+                <div class="servicesimages" >
+                    <img src="assets/images/seo5.webp">
+                </div  >
+                <div class="servicescontent" >
+                    <h5>SEO Service </h5>
+                    <h1>Content Creation & Optimization  </h1>
+                    <p>We regularly publis blog posts and articles to keep your website fresh and relevant. We perform cntent audits to identify gaps and opportunities for optimization. <br><br> We create engaging informative content that resonates with your audience and is optimized for search engines</p> 
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
 <!--=========== Slider Area ===========--->
-    <section>
+    <!-- <section>
         <div>
             <div></div>
             <div class="logo-slider">
-                <!-- Logo Items -->
                 <div><img src="assets/images/bi1.webp" alt="Logo 1"></div>
                 <div><img src="assets/images/bi2.webp" alt="Logo 2"></div>
                 <div><img src="assets/images/bi3.webp" alt="Logo 3"></div>
                 <div><img src="assets/images/bi4.webp" alt="Logo 4"></div>
                 <div><img src="assets/images/bi5.webp" alt="Logo 5"></div>
-                <!-- <div><img src="https://via.placeholder.com/150x50?text=Logo+6" alt="Logo 6"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+6" alt="Logo 6"></div>
                 <div><img src="https://via.placeholder.com/150x50?text=Logo+7" alt="Logo 7"></div>
                 <div><img src="https://via.placeholder.com/150x50?text=Logo+8" alt="Logo 8"></div>
                 <div><img src="https://via.placeholder.com/150x50?text=Logo+9" alt="Logo 9"></div>
                 <div><img src="https://via.placeholder.com/150x50?text=Logo+10" alt="Logo 10"></div>
                 <div><img src="https://via.placeholder.com/150x50?text=Logo+11" alt="Logo 11"></div>
-                <div><img src="https://via.placeholder.com/150x50?text=Logo+12" alt="Logo 12"></div> -->
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+12" alt="Logo 12"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 <!--========= Our Expertise ====--> 

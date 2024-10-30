@@ -12,7 +12,7 @@
                         <li class="dropdown"><a href="services.php">Services</a>
                             <div class="dropdown-content" >
                                 <a href="inner.php">Search Engine Optimization </a>
-                                <a href="#">Google Ads Management  </a>
+                                <a href="inner2.php">Google Ads Management  </a>
                                 <a href="#">Social Media Marketing </a>
                                 <a href="#">Website Designing and Development   </a>
                                 <a href="#">Graphic Designing Services   </a>

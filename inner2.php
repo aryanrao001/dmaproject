@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-<?php include('include/css.php');  ?>
+<?php include('include/css.php'); ?>
 
 </head>
 <body>
@@ -19,7 +19,13 @@
 <?php include('include/header.php'); ?>
 
 <!--================= Banner Sec =======-->
-    <section>
+
+
+<!---====================== Display none part ==================-->
+<!------ and they are so many below ---------->
+
+
+    <section style="display: none;" >
         <div class="bannersec">
             <div class="bannerright">
                 <button class="seobtn">Best Seo </button>
@@ -28,17 +34,30 @@
                 <button  class="startbtn"><a href="">Get Started &nbsp; &nbsp; <i class="fa-solid fa-arrow-right"></i></a></button>
             </div>
             <div class="bannerleft ">
-                <div  class="image-box"  id="imageBox" style="padding: 1vw 0 0 0;">
-                  <!-- <img width="90vw" height="80vh" src="assets/images/hero_model1.webp"> -->
+                <div  class="image-box" id="imageBox">
+                  <img width="" src="assets/images/bannersidephoto.webp">
                 </div>
             </div>
         </div>
     </section>
+<!--========================== =============-->
 
- 
+
+    <section>
+        <div class="innerbannersec">
+            <div class="circlecontainer">
+                <div class="blurrycircle"></div>
+            </div>
+            <div>
+                <h1>Google Ads Management </h1>
+                <h5>Home > Services > Google Ads Management </h5>
+            </div>
+        </div>
+    </section>
+
 <!--================= Content Start ===-->
 <!--==========  Content 1 =====-->
-    <section>
+    <section style="display:none;">
         <div class="content1" id="content1">
             <div class="cont1service">
                 <div class="cont1imgcontainer"><img src="assets/images/conten1img1.webp"></div>
@@ -85,7 +104,7 @@
     </section>
 
 <!--=========== Content 2 =====-->
-    <section class="content2" >
+    <section class="content2" style="display:none;" >
         <div class="content2firdiv"> 
             <button class="servicebtn" >Services </button>
             <h1>Your All-in-One Partner <br>for Digital Transformation.</h1>
@@ -127,10 +146,141 @@
                 </div>
             </div>
         </div>
+    </section> 
+
+    <section class="innerservices">
+        <div class="servicedivided" >
+            <div class="serviceimg" >
+                <img src="assets/images/seo1.webp">
+            </div>
+            <div class="servicecontent">
+                <h1>Expert Google Ads Management </h1>
+                <p>Welcome to Digital My Range Solution, your trusted partner for expert Google Ads management and comprehensive digital marketing solutions. With our proven expertise and innovative strategies, we help you maximize your online visibility, drive targeted traffic, and achieve your business goals. </p>
+                <button class="startbtn" ><a href="#" >Get Started </a></button>
+            </div>
+            <div class="serviceimg2">
+                <img src="assets/images/seo2.webp">
+            </div>
+        </div>
     </section>
 
+<!--=========== Below Parts =====-->
+    <div class="serveanime" >
+        <section class="mainserve" >
+            <div class="servicesections" >
+                <div class="servicesimages" >
+                    <img src="assets/images/seo2.webp">
+                </div  >
+                <div class="servicescontent" >
+                    <h5>Google Business  </h5>
+                    <h1>Skill and Accreditation </h1>
+                    <p>Agencies typically engage certified Google Ads specialists who stay current with the latest updates and industry best practices. This knowledge guarantees efficient management and optimization of campaigns. </p>
+                </div>
+            </div>
+        </section>
+
+        <section class=" mainserve2" >
+            <div class="servicesections" >
+                <div class="servicescontent" >
+                    <h5>Google Business  </h5>
+                    <h1>Targeted Advertising  </h1>
+                    <p> Agencies possess the ability to develop highly focused advertising campaigns. They employ sophisticated strategies to pinpoint and engage the appropriate audience, enhancing conversion rates and optimizing return on investment (ROI). </p>
+                </div>
+                <div class="servicesimages" >
+                    <img src="assets/images/seo6.webp">
+                </div>
+            </div>
+        </section>
+
+        <section class="mainserve" >
+            <div class="servicesections" >
+                <div class="servicesimages" >
+                    <img src="assets/images/seo7.webp">
+                </div  >
+                <div class="servicescontent" >
+                    <h5>SEO Service </h5>
+                    <h1>Content Creation & Optimization  </h1>
+                    <p>We regularly publis blog posts and articles to keep your website fresh and relevant. We perform cntent audits to identify gaps and opportunities for optimization. <br><br> We create engaging informative content that resonates with your audience and is optimized for search engines</p> 
+                </div>
+            </div>
+        </section>
+    </div>
+
+<!--=========== Slider Area ===========--->
+    <!-- <section>
+        <div>
+            <div></div>
+            <div class="logo-slider">
+                <div><img src="assets/images/bi1.webp" alt="Logo 1"></div>
+                <div><img src="assets/images/bi2.webp" alt="Logo 2"></div>
+                <div><img src="assets/images/bi3.webp" alt="Logo 3"></div>
+                <div><img src="assets/images/bi4.webp" alt="Logo 4"></div>
+                <div><img src="assets/images/bi5.webp" alt="Logo 5"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+6" alt="Logo 6"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+7" alt="Logo 7"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+8" alt="Logo 8"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+9" alt="Logo 9"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+10" alt="Logo 10"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+11" alt="Logo 11"></div>
+                <div><img src="https://via.placeholder.com/150x50?text=Logo+12" alt="Logo 12"></div>
+            </div>
+        </div>
+    </section> -->
+
+
+<!--========= Our Expertise ====--> 
+    <!-- <section class="expertisesec" >
+        <h1>Our Expertise </h1>
+        <p>We offer a comprehensive suite of digital solutions that are designed to transform your online presence and <br> deliver tangible business outcomes: </p>
+        <div class="expertisediv" >
+            <div class="timeline">
+                <div class="timeline-item timeline-item-left">
+                    <div class="outercontent ">
+                        <div class="scontent">
+                            <h3> Strategic Digital Marketing Solutions</h3>
+                            <p>In todays competitive market a well executed strategy is vital to  business success. At Digital My Range, we develop sophisticated, multi-channel strategies designed to enhance brand visibility, drive targeted traffic, and optimize conversions. By leveraging in-depth market research, analytics, and a keen understanding of consumer behavior, we ensure your business remains competitive in a dynamic digital landscape. Our approach is not just about delivering results – it’s about delivering the right results.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-right">
+                    <div class="outercontent">
+                        <div class="scontent">
+                            <h3>Search Engine Optimization (SEO)</h3>
+                            <p>In a world where online search drives purchasing decisions, visibility is paramount. Our SEO services are built on a foundation of technical precision, content relevance, and authoritative link-building. We tailor our SEO strategies to improve your rankings across major search engines, driving high-quality, organic traffic that converts. From comprehensive on-page optimization to advanced technical audits, we employ a holistic approach that enhances both your search engine presence and user experience. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="outercontent">
+                        <div class="scontent">
+                            <h3> Bespoke Web Development & Design </h3>
+                            <p>A Website is Your Storefront and a key touchpoint for your customers. At Digital My Range, we specialize in the development of high-performance, responsive websites that are as visually stunning as they are functional. Our expert team of developers and designers collaborate closely to create bespoke websites that are fully optimized for speed, security, and scalability. Whether you require a corporate site or a full-featured e-commerce platform, we deliver tailored solutions that captivate and convert your audience. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-right">
+                    <div class="outercontent" >
+                        <div class="scontent">
+                            <h3>Social Media Advertising</h3>
+                            <p>With social media platforms becoming critical to brand visibility, our targeted social advertising solutions are designed to deliver maximum engagement and ROI. We craft data-driven social media campaigns that leverage the full power of platforms like Facebook, Instagram, LinkedIn, and more, reaching your desired audience with precision. Our campaigns are optimized to build meaningful connections, generate leads, and drive business growth, ensuring your brand cuts through the noise.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item timeline-item-left">
+                    <div class="outercontent">
+                        <div class="scontent">
+                            <h3> Google Ads/ Pay-Per-Click (PPC) Campaigns</h3>
+                            <p>We specialize in the creation and management of high-impact PPC campaigns that deliver targeted results. Using platforms such as Google Ads and Bing Ads, our approach focuses on maximizing your return on investment through highly targeted ad placement and continuous optimization. With a focus on driving qualified traffic and conversion, our PPC solutions ensure that every ad dollar works to expand your business’s reach and bottom line.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
 <!--=========== Content 3 ======-->
-    <section>
+    <section style="display:none;" >
         <div class="cont3">
             <div class="cont3left">
                 <div class="cont3box cont3effect">
@@ -175,7 +325,7 @@
     </section>
 
 <!--========== Content 4 =======-->
-    <section class="content4" >
+    <section class="content4" style="display:none;" >
         <div class="content4firdiv"> 
             <button class="servicebtn"  >Recent Blog  </button>
             <h1>
@@ -225,7 +375,7 @@
     </section>
 
 <!--========== Content 5 =======-->
-    <section class="content5 content">
+    <section class="content5 content" style="margin: 0 0 8vw 0 ;" >
         <button class="servicebtn" >FAQ</button>
         <h1>Achieve Higher Rankings<br> with Us That Work  </h1>
         <div class="cont5cirlce"></div>
@@ -290,8 +440,8 @@
     </section>
 
 <!--========== Content 6 =======-->
-    <section class="content6 content">
-        <div class="blogbtn" ><button class="servicebtn">Recent Blogs </button></div>
+    <section class="content6 content" style="display:none;">
+        <button class="servicebtn">Recent Blogs </button>
         <div class="cont6top">
             <h1>Unlocking the Power <br> of Search </h1>
             <button class="startbtn" ><a href="#">Get Started &nbsp;<i class="fa-solid fa-arrow-right-long"></i></a></button>
@@ -323,8 +473,7 @@
     </section>
     
 <!--========== Footer =======-->
-
-<?php include('include/footer.php'); ?>
+    <?php include('include/footer.php'); ?>
 
 </div>    
 
@@ -334,6 +483,53 @@
 <!-- jQuery CDN -->
 
 <?php include('include/script.php'); ?>
+
+<script>
+      $(document).ready(function(){
+    $('.logo-slider').slick({
+        slidesToShow: 6, // Show 6 logos at a time
+        slidesToScroll: 1, // Scroll 1 logo at a time
+        autoplay: true, // Auto-scroll
+        autoplaySpeed: 2000, // Time between auto-scroll
+        dots: true, // Show dots for navigation
+        arrows: true, // Show previous/next arrows
+        pauseOnHover: true, // Pause autoplay on hover
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 5, // Show 5 logos on medium screens
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3, // Show 3 logos on small screens
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2, // Show 2 logos on extra-small screens
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+});
+
+
+var $ = jQuery.noConflict();
+$(document).ready(function(){
+    $('.logo-slider').slick({
+        // your settings here
+    });
+});
+
+</script>
+
 
 </body>
 </html>
