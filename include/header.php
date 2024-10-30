@@ -10,10 +10,14 @@
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us </a></li>
                         <li class="dropdown"><a href="services.php">Services</a>
-                            <!-- <div class="dropdown-content" >
-                                <a href="#">Services </a>
-                                <a href="#">Services Details</a>
-                            </div> -->
+                            <div class="dropdown-content" >
+                                <a href="inner.php">Search Engine Optimization </a>
+                                <a href="#">Google Ads Management  </a>
+                                <a href="#">Social Media Marketing </a>
+                                <a href="#">Website Designing and Development   </a>
+                                <a href="#">Graphic Designing Services   </a>
+                                <a href="#">Video Editing   </a>
+                            </div>
                         </li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="pricing.php">Pricing</a></li>

@@ -97,6 +97,45 @@ $(document).ready(function(){
 
 
 
+  $(document).ready(function(){
+    $('.logo-slider').slick({
+        slidesToShow: 6, // Show 6 logos at a time
+        slidesToScroll: 1, // Scroll 1 logo at a time
+        autoplay: true, // Auto-scroll
+        autoplaySpeed: 2000, // Time between auto-scroll
+        dots: true, // Show dots for navigation
+        arrows: true, // Show previous/next arrows
+        pauseOnHover: true, // Pause autoplay on hover
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 5, // Show 5 logos on medium screens
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3, // Show 3 logos on small screens
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2, // Show 2 logos on extra-small screens
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+});
+
+
+
+
+
 /*============= Gsap ===========*/
 
 
