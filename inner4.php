@@ -49,8 +49,8 @@
                 <div class="blurrycircle"></div>
             </div>
             <div>
-                <h1>Google Ads Management </h1>
-                <h5>Home > Services > Google Ads Management </h5>
+                <h1>Web Development   </h1>
+                <h5>Home > Services > Web Development   </h5>
             </div>
         </div>
     </section>
@@ -151,15 +151,15 @@
     <section class="innerservices">
         <div class="servicedivided" >
             <div class="serviceimg" >
-                <img src="assets/images/seo1.webp">
+                <img src="assets/images/seo11.webp">
             </div>
             <div class="servicecontent">
-                <h1>Expert Google Ads Management </h1>
-                <p>Welcome to Digital My Range Solution, your trusted partner for expert Google Ads management and comprehensive digital marketing solutions. With our proven expertise and innovative strategies, we help you maximize your online visibility, drive targeted traffic, and achieve your business goals. </p>
+                <h1>Innovative<br> Web Creation &<br> Development Solutions </h1>
+                <p>Welcome to Digital My Range Solutions, your trusted partner for expert web design and development solutions. With our proven expertise and customized strategies, we create dynamic, user-friendly websites that enhance your online presence, drive engagement, and connect seamlessly with your target audience to help you achieve your business goals.</p>
                 <button class="startbtn" ><a href="#" >Get Started </a></button>
             </div>
             <div class="serviceimg2">
-                <img src="assets/images/seo2.webp">
+                <img src="assets/images/seo12.webp">
             </div>
         </div>
     </section>
@@ -167,43 +167,100 @@
 <!--=========== Below Parts =====-->
     <div class="serveanime" >
         <section class="mainserve" >
-            <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo2.webp">
+            <div class="servicesections linkedin" >
+                <div class="servicesimages " >
+                    <img src="assets/images/seo13.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Skill and Accreditation </h1>
-                    <p>Agencies typically engage certified Google Ads specialists who stay current with the latest updates and industry best practices. This knowledge guarantees efficient management and optimization of campaigns. </p>
+                    <h5>Web Design & Development   </h5>
+                    <h1>Static Webistes  </h1>
+                    <p>Static websites display fixed content to users and are built using HTML and CSS, making them simple and cost effective . They don't change content dynamically based on user interaction , enhancing security and performance but limiting interactive features.  </p>
                 </div>
             </div>
         </section>
 
-        <section class=" mainserve2" >
+        <section class=" mainserve2 pt-5 "  >
             <div class="servicesections" >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Targeted Advertising  </h1>
-                    <p> Agencies possess the ability to develop highly focused advertising campaigns. They employ sophisticated strategies to pinpoint and engage the appropriate audience, enhancing conversion rates and optimizing return on investment (ROI). </p>
+                    <h5>Web Design & Development   </h5>
+                    <h1>Dynamic Webistes  </h1>
+                    <p> Dynamic websites are interactive online platforms that generate content in real-time based on uesr interactions or database content. Unlike static websites that display fixed information , dynamic sites can customize content, layout and features for each use session . This flexibility allows for personnalized user experiences , real-time updates, and interactive elements like forms, login systems, and e-commerce functionalities  </p>
                 </div>
                 <div class="servicesimages" >
-                    <img src="assets/images/seo6.webp">
+                    <img src="assets/images/seo14.webp">
                 </div>
             </div>
         </section>
 
-        <section class="mainserve" >
-            <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo7.webp">
+        <section class="mainserve " >
+            <div class="servicesections linkedin" >
+                <div class="servicesimages " >
+                    <img src="assets/images/seo16.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business </h5>
-                    <h1>Cost Optimization  </h1>
-                    <p>At Digital My Range, expert management maximizes the potential of your advertising budget. Our team fine-tunes bids, selects targeted keywords, and strategically places ads to drive impactful campaigns that offer exceptional value and high returns on investment.</p> 
+                    <h5>Web Design & Development </h5>
+                    <h1>MERN Stack Websites  </h1>
+                    <p>MERN stack websites are web applications built using MongoDB, Express.js, React.js, and Node.js. MongoDB serves as the database, Express.js handles server-side logic, React.js manages the user interface, and Node.js manages server-side runtime. This stack is popular for its efficiency in developing full-stack applications with JavaScript, providing a seamless experience from front to back end.</p> 
                 </div>
             </div>
         </section>
+
+        <section class=" mainserve2 pt-5 "  >
+            <div class="servicesections" >
+                <div class="servicescontent" >
+                    <h5>Web Design & Development   </h5>
+                    <h1>LAMP Stack Websites   </h1>
+                    <p> LAMP stack websites refer to web applications built using Linux as the operating system, Apache as the web server, MySQL as the relational database management system (RDBMS), and PHP (or sometimes Perl or Python) as the programming language. This combination forms a robust and widely-used foundation for dynamic web applications. LAMP stack websites are known for their flexibility, scalability, and open-source nature, making them popular choices for various types of web development projects.</p>
+                </div>
+                <div class="servicesimages" >
+                    <img src="assets/images/seo16.svg">
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mainserve linkedin" >
+            <div class="servicesections" >
+                <div class="servicesimages" >
+                    <img src="assets/images/seo19.webp">
+                </div  >
+                <div class="servicescontent" >
+                    <h5>Web Design & Development </h5>
+                    <h1>E-commerce Websites  </h1>
+                    <p>E-commerce websites facilitate online transactions of goods and services, allowing businesses to reach global markets. They typically include features like product catalogs, shopping carts, secure payment gateways, and customer account management. These platforms vary from simple storefronts to complex marketplaces, offering scalability and customization options to meet diverse business needs.</p> 
+                </div>
+            </div>
+        </section>
+
+
+        <section class=" mainserve2 pt-5 "  >
+            <div class="servicesections" >
+                <div class="servicescontent" >
+                    <h5>Web Design & Development   </h5>
+                    <h1>CMS-Based Websites  </h1>
+                    <p> CMS-based websites, or Content Management System-based websites, utilize platforms like WordPress, Joomla, or Drupal to manage content dynamically. These systems allow easy content creation, editing, and publishing through user-friendly interfaces. CMS-based sites are ideal for blogs, e-commerce stores, and large informational portals due to their scalability and plugin ecosystems.</p>
+                </div>
+                <div class="servicesimages" >
+                    <img src="assets/images/seo17.webp">
+                </div>
+            </div>
+        </section>
+
+        <section class="mainserve " >
+            <div class="servicesections" >
+                <div class="servicesimages" >
+                    <img src="assets/images/seo18.webp">
+                </div  >
+                <div class="servicescontent" >
+                    <h5>Web Design & Development </h5>
+                    <h1>Responsive Websites   </h1>
+                    <p>Responsive websites are designed to adapt seamlessly to various screen sizes and devices, ensuring optimal user experience across desktops, tablets, and smartphones. They use flexible layouts, images, and CSS media queries to adjust content and design elements dynamically. This approach enhances usability and accessibility, catering to the diverse preferences of modern users who access websites on different devices.</p> 
+                </div>
+            </div>
+        </section>
+
+
+
     </div>
 
 <!--=========== Slider Area ===========--->

@@ -225,7 +225,7 @@ header>div{
     width: auto;
     height: 66vh;
 }
-.bannerleft{
+/* .bannerleft{
     background-image: url(../images/hero_model1.webp) ;
     background-repeat: no-repeat;
     width: 50%;
@@ -234,7 +234,7 @@ header>div{
     background-repeat: none;
     background-position: bottom;
     margin: 3vw 0 0 0 ;
-}
+} */
 .seobtn{
     background-color: #FFB525;
     padding: 1vw 1.5vw ;
@@ -1690,9 +1690,12 @@ footer{
 }
 .servicesimages img { 
     width: 100%;
+    border-radius: 2vw;
 }
 .servicescontent{
     width: 30%;
+    /* background-color: black; */
+    padding: 0 2vw ;
 }
 .servicescontent h5{
     color: #206DFF;

@@ -49,8 +49,8 @@
                 <div class="blurrycircle"></div>
             </div>
             <div>
-                <h1>Google Ads Management </h1>
-                <h5>Home > Services > Google Ads Management </h5>
+                <h1>Video Editing     </h1>
+                <h5>Home > Services > Video Editing  </h5>
             </div>
         </div>
     </section>
@@ -151,15 +151,15 @@
     <section class="innerservices">
         <div class="servicedivided" >
             <div class="serviceimg" >
-                <img src="assets/images/seo1.webp">
+                <img src="assets/images/seo25.webp">
             </div>
             <div class="servicecontent">
-                <h1>Expert Google Ads Management </h1>
-                <p>Welcome to Digital My Range Solution, your trusted partner for expert Google Ads management and comprehensive digital marketing solutions. With our proven expertise and innovative strategies, we help you maximize your online visibility, drive targeted traffic, and achieve your business goals. </p>
+                <h1>Holistic Video Editing: Transforming Your Visual Stories     </h1>
+                <p>At Digital My Range , our comprehensive video editing services transform raw footage into captivating stories. We use cutting-edge techniques and software to deliver professional, high-quality videos tailored to your needs..</p>
                 <button class="startbtn" ><a href="#" >Get Started </a></button>
             </div>
             <div class="serviceimg2">
-                <img src="assets/images/seo2.webp">
+                <img src="assets/images/seo26.avif">
             </div>
         </div>
     </section>
@@ -167,43 +167,48 @@
 <!--=========== Below Parts =====-->
     <div class="serveanime" >
         <section class="mainserve" >
-            <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo2.webp">
+            <div class="servicesections linkedin" >
+                <div class="servicesimages " >
+                    <img src="assets/images/seo27.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Skill and Accreditation </h1>
-                    <p>Agencies typically engage certified Google Ads specialists who stay current with the latest updates and industry best practices. This knowledge guarantees efficient management and optimization of campaigns. </p>
+                    <h5>Video Editing    </h5>
+                    <h1>Video Editing: Key to Creating Compelling Video Ads</h1>
+                    <p>Explore how professional video editing enhances the effectiveness of video ads by improving visual appeal, storytelling, and engagement.  </p>
                 </div>
             </div>
         </section>
 
-        <section class=" mainserve2" >
+        <section class=" mainserve2 pt-5 "  >
             <div class="servicesections" >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Targeted Advertising  </h1>
-                    <p> Agencies possess the ability to develop highly focused advertising campaigns. They employ sophisticated strategies to pinpoint and engage the appropriate audience, enhancing conversion rates and optimizing return on investment (ROI). </p>
+                    <h5>Video Editing   </h5>
+                    <h1>Effective Video Editing Tips to Maximize Ad Impact  </h1>
+                    <p>Discuss essential video editing techniques like transitions, effects, and color correction that can elevate the quality and impact of video ads.</p>
                 </div>
                 <div class="servicesimages" >
-                    <img src="assets/images/seo6.webp">
+                    <img src="assets/images/seo28.webp">
                 </div>
             </div>
         </section>
 
-        <section class="mainserve" >
-            <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo7.webp">
+        <section class="mainserve " >
+            <div class="servicesections linkedin" >
+                <div class="servicesimages " >
+                    <img src="assets/images/seo29.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business </h5>
-                    <h1>Cost Optimization  </h1>
-                    <p>At Digital My Range, expert management maximizes the potential of your advertising budget. Our team fine-tunes bids, selects targeted keywords, and strategically places ads to drive impactful campaigns that offer exceptional value and high returns on investment.</p> 
+                    <h5>Video Editing  </h5>
+                    <h1>How to Pick the Right Video Editing Program for Ads </h1>
+                    <p>Review different video editing software options, highlighting their features and benefits, and guide choosing the best tool for creating compelling video ads. </p> 
                 </div>
             </div>
         </section>
+
+        
+
+
+
     </div>
 
 <!--=========== Slider Area ===========--->

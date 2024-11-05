@@ -49,8 +49,8 @@
                 <div class="blurrycircle"></div>
             </div>
             <div>
-                <h1>Google Ads Management </h1>
-                <h5>Home > Services > Google Ads Management </h5>
+                <h1>Graphic Design    </h1>
+                <h5>Home > Services > Graphic Design </h5>
             </div>
         </div>
     </section>
@@ -151,15 +151,15 @@
     <section class="innerservices">
         <div class="servicedivided" >
             <div class="serviceimg" >
-                <img src="assets/images/seo1.webp">
+                <img src="assets/images/seo20.webp">
             </div>
             <div class="servicecontent">
-                <h1>Expert Google Ads Management </h1>
-                <p>Welcome to Digital My Range Solution, your trusted partner for expert Google Ads management and comprehensive digital marketing solutions. With our proven expertise and innovative strategies, we help you maximize your online visibility, drive targeted traffic, and achieve your business goals. </p>
+                <h1>Bring Your Brand to Life with Creative Graphic Design </h1>
+                <p>Elevate your brand with Digital My Range’s comprehensive graphic design services, combining creativity, innovation, and expertise to deliver visually striking designs that captivate and engage your audience.</p>
                 <button class="startbtn" ><a href="#" >Get Started </a></button>
             </div>
             <div class="serviceimg2">
-                <img src="assets/images/seo2.webp">
+                <img src="assets/images/seo21.webp">
             </div>
         </div>
     </section>
@@ -167,43 +167,48 @@
 <!--=========== Below Parts =====-->
     <div class="serveanime" >
         <section class="mainserve" >
-            <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo2.webp">
+            <div class="servicesections linkedin" >
+                <div class="servicesimages " >
+                    <img src="assets/images/seo22.avif">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Skill and Accreditation </h1>
-                    <p>Agencies typically engage certified Google Ads specialists who stay current with the latest updates and industry best practices. This knowledge guarantees efficient management and optimization of campaigns. </p>
+                    <h5>Graphic Designing    </h5>
+                    <h1>How Graphic Design Shapes Strong Brand Identity   </h1>
+                    <p>Explore the impact fo professional graphic design on creating a strong and chesive brand identity, and how Think Media Solution help businesses stand out with customized branding solutions.  </p>
                 </div>
             </div>
         </section>
 
-        <section class=" mainserve2" >
+        <section class=" mainserve2 pt-5 "  >
             <div class="servicesections" >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Targeted Advertising  </h1>
-                    <p> Agencies possess the ability to develop highly focused advertising campaigns. They employ sophisticated strategies to pinpoint and engage the appropriate audience, enhancing conversion rates and optimizing return on investment (ROI). </p>
+                    <h5>Graphic Designing   </h5>
+                    <h1>Design Trends: Leading the Graphic Industry  </h1>
+                    <p> Discuss the latest trends in graphic design, such as minimalism, bold typography, and vibrant color schemes, and how Think Media Solution incorporates these trends to deliver cutting-edge designs.</p>
                 </div>
                 <div class="servicesimages" >
-                    <img src="assets/images/seo6.webp">
+                    <img src="assets/images/seo23.avif">
                 </div>
             </div>
         </section>
 
-        <section class="mainserve" >
-            <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo7.webp">
+        <section class="mainserve " >
+            <div class="servicesections linkedin" >
+                <div class="servicesimages " >
+                    <img src="assets/images/seo24.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business </h5>
-                    <h1>Cost Optimization  </h1>
-                    <p>At Digital My Range, expert management maximizes the potential of your advertising budget. Our team fine-tunes bids, selects targeted keywords, and strategically places ads to drive impactful campaigns that offer exceptional value and high returns on investment.</p> 
+                    <h5>Graphic Designing  </h5>
+                    <h1>The Importance of Graphic Design in Digital Marketing </h1>
+                    <p>Examine the crucial role of graphic design in digital marketing, including social media graphics, infographics, and website visuals, and how Think Media Solution’s design services enhance the effectiveness of marketing campaigns.</p> 
                 </div>
             </div>
         </section>
+
+        
+
+
+
     </div>
 
 <!--=========== Slider Area ===========--->

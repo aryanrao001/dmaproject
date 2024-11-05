@@ -13,10 +13,10 @@
                             <div class="dropdown-content" >
                                 <a href="inner.php">Search Engine Optimization </a>
                                 <a href="inner2.php">Google Ads Management  </a>
-                                <a href="#">Social Media Marketing </a>
-                                <a href="#">Website Designing and Development   </a>
-                                <a href="#">Graphic Designing Services   </a>
-                                <a href="#">Video Editing   </a>
+                                <a href="inner3.php">Social Media Marketing </a>
+                                <a href="inner4.php">Website Designing and Development   </a>
+                                <a href="inner5.php">Graphic Designing Services   </a>
+                                <a href="inner6.php">Video Editing   </a>
                             </div>
                         </li>
                         <li><a href="#">Blog</a></li>

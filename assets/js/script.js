@@ -563,11 +563,11 @@ gsap.from(".mainserve",{
 });
 
 gsap.from(".mainserve2",{
-    x:-200,
-    opacity: 0.5,
+    x:-300,
+    opacity: 0.7,
     delay:1,
     stagger: 2,
-    duration : 2,
+    duration : 3,
     // repeat : -1,
     scrollTrigger : {
         trigger:".serveanime",

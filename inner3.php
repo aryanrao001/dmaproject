@@ -49,8 +49,8 @@
                 <div class="blurrycircle"></div>
             </div>
             <div>
-                <h1>Google Ads Management </h1>
-                <h5>Home > Services > Google Ads Management </h5>
+                <h1>Social Media Marketing  </h1>
+                <h5>Home > Services > Social Meida Marketing  </h5>
             </div>
         </div>
     </section>
@@ -154,8 +154,8 @@
                 <img src="assets/images/seo1.webp">
             </div>
             <div class="servicecontent">
-                <h1>Expert Google Ads Management </h1>
-                <p>Welcome to Digital My Range Solution, your trusted partner for expert Google Ads management and comprehensive digital marketing solutions. With our proven expertise and innovative strategies, we help you maximize your online visibility, drive targeted traffic, and achieve your business goals. </p>
+                <h1>Social Media Presence Enhancement </h1>
+                <p>Welcome to Digital My Range Solutions, your trusted partner for expert social media marketing and holistic digital growth solutions. With our proven expertise and tailored strategies, we enhance your online presence, build meaningful engagement, and connect you with your target audience to achieve your business goals.</p>
                 <button class="startbtn" ><a href="#" >Get Started </a></button>
             </div>
             <div class="serviceimg2">
@@ -168,39 +168,39 @@
     <div class="serveanime" >
         <section class="mainserve" >
             <div class="servicesections" >
-                <div class="servicesimages" >
-                    <img src="assets/images/seo2.webp">
+                <div class="servicesimages " >
+                    <img src="assets/images/seo8.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Skill and Accreditation </h1>
-                    <p>Agencies typically engage certified Google Ads specialists who stay current with the latest updates and industry best practices. This knowledge guarantees efficient management and optimization of campaigns. </p>
+                    <h5>Social Media Marketing   </h5>
+                    <h1>Social Media Marketing  </h1>
+                    <p>Digital My Range provides all-encompassing social media marketing services designed to boost your brand’s digital footprint. Our skilled team develops customized strategies, compelling content, and data-focused campaigns across platforms such as Facebook, Instagram, and LinkedIn. We focus on driving higher engagement, fostering brand loyalty, and delivering tangible results with transparent reporting and creative strategies. </p>
                 </div>
             </div>
         </section>
 
-        <section class=" mainserve2" >
+        <section class=" mainserve2 pt-5 linkedin" style="padding-top:9vh;" >
             <div class="servicesections" >
                 <div class="servicescontent" >
-                    <h5>Google Business  </h5>
-                    <h1>Targeted Advertising  </h1>
-                    <p> Agencies possess the ability to develop highly focused advertising campaigns. They employ sophisticated strategies to pinpoint and engage the appropriate audience, enhancing conversion rates and optimizing return on investment (ROI). </p>
+                    <h5>Social Media Marketing   </h5>
+                    <h1>Twitter </h1>
+                    <p> Twitter offers a fast-paced platform ideal for real-time marketing, customer service, and engagement. Its concise format encourages quick interactions and trending topics can amplify reach. Brands can leverage Twitter Ads for promoted tweets, accounts, and trends to increase visibility and follower count. </p>
                 </div>
                 <div class="servicesimages" >
-                    <img src="assets/images/seo6.webp">
+                    <img src="assets/images/seo9.webp">
                 </div>
             </div>
         </section>
 
-        <section class="mainserve" >
+        <section class="mainserve linkedin" >
             <div class="servicesections" >
                 <div class="servicesimages" >
-                    <img src="assets/images/seo7.webp">
+                    <img src="assets/images/seo10.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business </h5>
-                    <h1>Cost Optimization  </h1>
-                    <p>At Digital My Range, expert management maximizes the potential of your advertising budget. Our team fine-tunes bids, selects targeted keywords, and strategically places ads to drive impactful campaigns that offer exceptional value and high returns on investment.</p> 
+                    <h5>Social Media Marketing  </h5>
+                    <h1>LinkedIn </h1>
+                    <p>LinkedIn is a premier platform for B2B marketing, focusing on professional networking and industry-specific content. It offers tools like LinkedIn Ads, Sponsored InMail, and content marketing to connect with decision-makers and industry leaders. Utilizing LinkedIn can enhance brand authority and drive high-quality leads through targeted campaigns and professional engagements.</p> 
                 </div>
             </div>
         </section>
