@@ -179,7 +179,7 @@
             </div>
         </section>
 
-        <section class=" mainserve2 pt-5 linkedin" style="padding-top:9vh;" >
+        <section class=" mainserve2 pt-5 linkedin" >
             <div class="servicesections" >
                 <div class="servicescontent" >
                     <h5>Social Media Marketing   </h5>

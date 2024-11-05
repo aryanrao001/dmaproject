@@ -9,7 +9,7 @@
                         <li class="close" ><i class="fa-solid fa-xmark"></i></li>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about.php">About Us </a></li>
-                        <li class="dropdown"><a href="services.php">Services</a>
+                        <li class="dropdown"><a href="#">Services <i class="fa-solid fa-angle-down"></i> </a>
                             <div class="dropdown-content" >
                                 <a href="inner.php">Search Engine Optimization </a>
                                 <a href="inner2.php">Google Ads Management  </a>

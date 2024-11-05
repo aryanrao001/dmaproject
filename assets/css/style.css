@@ -179,6 +179,8 @@ header>div{
     .menuopt li>a{ padding: 9vw 1vw; font-size: 18px; /* background-color: #206DFF; */ }
     .menuopt li{ padding: 5vw 2vw;}
     .close{display: block;}
+    .dropdown-content{width: 35vh; top: 100%;}
+    .dropdown-content a{background-color: #f7faff; padding:3vw 2vw ;}
 
     
 }
@@ -283,11 +285,11 @@ header>div{
     transition: transform 0.2s ease-out;
 }
 @media only screen and (max-width:768px){
-    .bannersec{ flex-direction: column; }
+    .bannersec{ flex-direction: column; padding: 28vw 2vw 0 2vw ; }
     .bannerright h1{font-size: 35px;}
     .bannerright p{ font-size: 15px;line-height: 20px;}
-    .bannerleft{ background-image: url(../images/hero_model1.webp) ;background-repeat: no-repeat; width: 110%; height: 80vh; background-size: contain; background-repeat: none; background-position: bottom; margin: 3vw 0 0 0 ;
-    }
+    .bannerleft{background-repeat: no-repeat; width: 100%; height: 80vh;  margin: 3vw 0 0 0 ;}
+    .bannerleft img{height: 55vh;}
 }
 /*========== Content Start ===========*/
 /*=== Content 1 ========*/
@@ -1326,6 +1328,23 @@ footer{
     padding: 0 2vw ;
     color: #206DFF;
 }
+
+@media only screen and (max-width:568px){
+    .innerbannersec h1{font-size: 20px;padding: 2vw 0;}
+    .innerbannersec h5{font-size: 20px;}
+    .aboutnew{flex-direction: column;}
+    .aboutsec{height: 150vh ;}
+    .aboutimage{width: 100%;}
+    .aboutcontent{width: 100%; padding: 0 3vw ;}
+    .aboutcontent h3{
+        color: #032e7d;
+        font-size: 5vw;
+        padding: 0.5vw 0;
+    }
+    .aboutcontent h1{ color: #206DFF; font-size: 9vw; padding: 0 0 2vw 0 ;}
+    .aboutcontent p{ font-size: 15px ; }
+}
+
 /*============== Services Page ================*/
 .servicecontent2{
     height: 160vh;
@@ -1656,7 +1675,7 @@ footer{
     font-weight: 400;
 }
 .servicecontent p{
-    font-size: 1vw;
+    font-size: 15px;
     font-weight: 400;
     font-style: italic;
     padding: 1vw 0 0 0 ;
@@ -1669,7 +1688,7 @@ footer{
 }
 .serviceimg2 img{
     width: 100%;
-    height: 100%;
+    height: 100%; 
 }
 
 .mainserve{
@@ -1721,4 +1740,17 @@ footer{
     max-width: 100%; /* Make logos responsive */
     display: block;
     margin: 0 auto; /* Center logos */
+}
+@media only screen and (max-width:568px){
+    .servicesections{ flex-direction: column; height: 80vh; }
+    .servicesimages{width: 90%;}
+    .servicescontent{width: 90%;}
+    .mainserve{height: 130vh;}
+    .servicedivided{flex-direction: column;}
+    .serviceimg{width: 100%;}.serviceimg2{width: 100%;}
+    .servicecontent{width: 100%;}
+    .servicecontent h1{font-size: 30px; padding: 2vw 0;}
+    .servicecontent p{padding:2vw 0;}
+    .servicescontent h1{font-size: 30px;}
+    .innerservices{ height: 131vh;}
 }

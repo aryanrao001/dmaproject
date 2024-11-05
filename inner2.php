@@ -150,16 +150,17 @@
 
     <section class="innerservices">
         <div class="servicedivided" >
-            <div class="serviceimg" >
-                <img src="assets/images/seo1.webp">
+            <div class="serviceimg2">
+                <img src="assets/images/seo2.webp">
             </div>
             <div class="servicecontent">
                 <h1>Expert Google Ads Management </h1>
                 <p>Welcome to Digital My Range Solution, your trusted partner for expert Google Ads management and comprehensive digital marketing solutions. With our proven expertise and innovative strategies, we help you maximize your online visibility, drive targeted traffic, and achieve your business goals. </p>
                 <button class="startbtn" ><a href="#" >Get Started </a></button>
             </div>
-            <div class="serviceimg2">
-                <img src="assets/images/seo2.webp">
+            
+            <div class="serviceimg" >
+                <img src="assets/images/seo1.webp">
             </div>
         </div>
     </section>
@@ -198,9 +199,9 @@
                     <img src="assets/images/seo7.webp">
                 </div  >
                 <div class="servicescontent" >
-                    <h5>Google Business </h5>
-                    <h1>Cost Optimization  </h1>
-                    <p>At Digital My Range, expert management maximizes the potential of your advertising budget. Our team fine-tunes bids, selects targeted keywords, and strategically places ads to drive impactful campaigns that offer exceptional value and high returns on investment.</p> 
+                    <h5>SEO Service </h5>
+                    <h1>Content Creation & Optimization  </h1>
+                    <p>We regularly publis blog posts and articles to keep your website fresh and relevant. We perform cntent audits to identify gaps and opportunities for optimization. <br><br> We create engaging informative content that resonates with your audience and is optimized for search engines</p> 
                 </div>
             </div>
         </section>

@@ -543,35 +543,35 @@ gsap.from(".fc2div h4",{
 gsap.from(".servicedivided",{
     y:200,
     opacity: 0,
-    delay:1.5,
+    delay:0.5,
     stagger: 2,
     duration : 1,
     // repeat : -1,
 });
 gsap.from(".mainserve",{
-    x:200,
+    x:100,
     opacity: 0.5,
-    delay:1,
+    // delay:0.1,
     stagger: 2,
     duration : 2,
     // repeat : -1,
     scrollTrigger : {
         trigger:".serveanime",
-        start : "top 100%",
+        start : "top 120%",
         scrub : true
     }
 });
 
 gsap.from(".mainserve2",{
-    x:-300,
-    opacity: 0.7,
-    delay:1,
+    x:-100,
+    opacity: 0.5,
+    // delay:0.1,
     stagger: 2,
-    duration : 3,
+    duration : 2,
     // repeat : -1,
     scrollTrigger : {
         trigger:".serveanime",
-        start : "top 90%",
+        start : "top 120%",
         scrub : true
     }
 });
