@@ -1336,13 +1336,13 @@ footer{
     .aboutsec{height: 150vh ;}
     .aboutimage{width: 100%;}
     .aboutcontent{width: 100%; padding: 0 3vw ;}
-    .aboutcontent h3{
-        color: #032e7d;
-        font-size: 5vw;
-        padding: 0.5vw 0;
-    }
+    .aboutcontent h3{ color: #032e7d; font-size: 5vw; padding: 0.5vw 0;     }
     .aboutcontent h1{ color: #206DFF; font-size: 9vw; padding: 0 0 2vw 0 ;}
     .aboutcontent p{ font-size: 15px ; }
+    .missionsec{height: 80vh;}
+    .missiondiv h1{ font-size: 8vw ; }
+    .missiondiv p{ font-size: 15px;padding: 3vw 0;}
+    .missiondiv i{ font-size: 8vw;}
 }
 
 /*============== Services Page ================*/
